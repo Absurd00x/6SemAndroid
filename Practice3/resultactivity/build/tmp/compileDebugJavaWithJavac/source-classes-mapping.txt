@@ -1,0 +1,6 @@
+com/example/resultactivity/MainActivity.java
+ com.example.resultactivity.MainActivity
+com/example/resultactivity/BuildConfig.java
+ com.example.resultactivity.BuildConfig
+com/example/resultactivity/DataActivity.java
+ com.example.resultactivity.DataActivity

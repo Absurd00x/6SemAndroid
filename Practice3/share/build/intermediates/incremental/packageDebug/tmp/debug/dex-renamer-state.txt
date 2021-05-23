@@ -1,0 +1,4 @@
+#Sat May 22 13:27:33 MSK 2021
+base.0=/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice3/share/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

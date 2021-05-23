@@ -1,0 +1,4 @@
+com/example/task1/BuildConfig.java
+ com.example.task1.BuildConfig
+com/example/task1/MainActivity.java
+ com.example.task1.MainActivity

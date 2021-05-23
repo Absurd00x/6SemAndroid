@@ -1,0 +1,4 @@
+com/example/systemintentsapp/BuildConfig.java
+ com.example.systemintentsapp.BuildConfig
+com/example/systemintentsapp/MainActivity.java
+ com.example.systemintentsapp.MainActivity

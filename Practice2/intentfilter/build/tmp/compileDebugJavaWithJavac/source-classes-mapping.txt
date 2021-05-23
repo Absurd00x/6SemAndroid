@@ -1,0 +1,4 @@
+com/example/intentfilter/BuildConfig.java
+ com.example.intentfilter.BuildConfig
+com/example/intentfilter/MainActivity.java
+ com.example.intentfilter.MainActivity

@@ -1,0 +1,10 @@
+com/example/tasklast/MyProgressDialogFragment.java
+ com.example.tasklast.MyProgressDialogFragment
+com/example/tasklast/BuildConfig.java
+ com.example.tasklast.BuildConfig
+com/example/tasklast/MainActivity.java
+ com.example.tasklast.MainActivity
+com/example/tasklast/MyDateDialogFragment.java
+ com.example.tasklast.MyDateDialogFragment
+com/example/tasklast/MyTimeDialogFragment.java
+ com.example.tasklast.MyTimeDialogFragment

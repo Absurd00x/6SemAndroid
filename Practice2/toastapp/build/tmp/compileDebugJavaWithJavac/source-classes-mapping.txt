@@ -1,0 +1,4 @@
+com/example/toastapp/BuildConfig.java
+ com.example.toastapp.BuildConfig
+com/example/toastapp/MainActivity.java
+ com.example.toastapp.MainActivity

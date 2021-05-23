@@ -1,0 +1,8 @@
+com/example/simplefragmentapp2/MainActivity.java
+ com.example.simplefragmentapp2.MainActivity
+com/example/simplefragmentapp2/BuildConfig.java
+ com.example.simplefragmentapp2.BuildConfig
+com/example/simplefragmentapp2/Fragment2.java
+ com.example.simplefragmentapp2.Fragment2
+com/example/simplefragmentapp2/Fragment1.java
+ com.example.simplefragmentapp2.Fragment1

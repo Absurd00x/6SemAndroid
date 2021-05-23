@@ -1,0 +1,6 @@
+com/example/intentapp2/BuildConfig.java
+ com.example.intentapp2.BuildConfig
+com/example/intentapp2/Second_Activity.java
+ com.example.intentapp2.Second_Activity
+com/example/intentapp2/MainActivity.java
+ com.example.intentapp2.MainActivity

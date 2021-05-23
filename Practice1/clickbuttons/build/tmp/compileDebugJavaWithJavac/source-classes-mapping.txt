@@ -1,0 +1,4 @@
+com/example/clickbuttons/BuildConfig.java
+ com.example.clickbuttons.BuildConfig
+com/example/clickbuttons/MainActivity.java
+ com.example.clickbuttons.MainActivity

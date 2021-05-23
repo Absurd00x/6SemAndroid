@@ -1,0 +1,23 @@
+com/example/multiactivity/MainActivity.java
+ com.example.multiactivity.MainActivity
+com/example/multiactivity/SecondFragment.java
+ com.example.multiactivity.SecondFragment
+ com.example.multiactivity.SecondFragment$1
+com/example/multiactivity/databinding/FragmentSecondBinding.java
+ com.example.multiactivity.databinding.FragmentSecondBinding
+com/example/multiactivity/databinding/ActivityMainBinding.java
+ com.example.multiactivity.databinding.ActivityMainBinding
+com/example/multiactivity/databinding/FragmentFirstBinding.java
+ com.example.multiactivity.databinding.FragmentFirstBinding
+com/example/multiactivity/BuildConfig.java
+ com.example.multiactivity.BuildConfig
+com/example/multiactivity/FirstFragment.java
+ com.example.multiactivity.FirstFragment
+ com.example.multiactivity.FirstFragment$1
+com/example/multiactivity/SecondActivity.java
+ com.example.multiactivity.SecondActivity
+ com.example.multiactivity.SecondActivity$1
+com/example/multiactivity/databinding/ContentSecondBinding.java
+ com.example.multiactivity.databinding.ContentSecondBinding
+com/example/multiactivity/databinding/ActivitySecondBinding.java
+ com.example.multiactivity.databinding.ActivitySecondBinding

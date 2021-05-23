@@ -1,0 +1,4 @@
+#Thu May 20 20:56:00 MSK 2021
+base.0=/home/user/AndroidStudioProjects/Practice1/clickbuttons/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
