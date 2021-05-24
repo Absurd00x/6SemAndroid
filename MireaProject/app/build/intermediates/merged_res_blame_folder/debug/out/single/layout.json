@@ -24,6 +24,10 @@
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/app_bar_main.xml"
     },
     {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_music_player.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_music_player.xml"
+    },
+    {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_slideshow.xml",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_slideshow.xml"
     },

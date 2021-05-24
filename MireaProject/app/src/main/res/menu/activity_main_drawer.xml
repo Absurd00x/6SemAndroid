@@ -12,5 +12,9 @@
             android:id="@+id/nav_calculator"
             android:onClick="onClick"
             android:title="@string/menu_calculator" />
+        <item
+            android:id="@+id/nav_player"
+            android:onClick="onClick"
+            android:title="Player" />
     </group>
 </menu>

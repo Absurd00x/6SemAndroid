@@ -1,0 +1,6 @@
+com/example/loadermanager/MyLoader.java
+ com.example.loadermanager.MyLoader
+com/example/loadermanager/MainActivity.java
+ com.example.loadermanager.MainActivity
+com/example/loadermanager/BuildConfig.java
+ com.example.loadermanager.BuildConfig

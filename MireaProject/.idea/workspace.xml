@@ -31,7 +31,127 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02f91cca-2fe0-4ed7-a87d-85c255fbae8d" name="Default Changelist" comment="" />
+    <list default="true" id="02f91cca-2fe0-4ed7-a87d-85c255fbae8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/androidTest/java/com/example/loadermanager/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/java/com/example/loadermanager/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/java/com/example/loadermanager/MyLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/loadermanager/src/test/java/com/example/loadermanager/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/androidTest/java/com/example/looper/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/java/com/example/looper/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/java/com/example/looper/MyLooper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/looper/src/test/java/com/example/looper/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/androidTest/java/com/example/service/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/java/com/example/service/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/java/com/example/service/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/service/src/test/java/com/example/service/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/androidTest/java/com/example/workmanager/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/java/com/example/workmanager/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/java/com/example/workmanager/UploadWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice4/workmanager/src/test/java/com/example/workmanager/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +167,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1svyUC91nerZKRhhAL5KuyE0nm1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,6 +177,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/raw" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -155,29 +283,29 @@
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1653" y="488" width="526" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621769623937" />
-    <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog" timestamp="1621767954581">
+    <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog" timestamp="1621881275544">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621767954581" />
+    <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621881275544" />
     <state x="1761" y="548" width="309" height="375" key="AndroidCreateXmlResourceDialog" timestamp="1621767947694">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1761" y="548" width="309" height="375" key="AndroidCreateXmlResourceDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621767947694" />
-    <state width="1232" height="396" key="GridCell.Tab.0.bottom" timestamp="1621784693758">
+    <state width="1232" height="396" key="GridCell.Tab.0.bottom" timestamp="1621884499339">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.bottom/0.37.2560.1403@0.37.2560.1403" timestamp="1621784693758" />
-    <state width="1232" height="396" key="GridCell.Tab.0.center" timestamp="1621784693757">
+    <state width="1232" height="396" key="GridCell.Tab.0.bottom/0.37.2560.1403@0.37.2560.1403" timestamp="1621884499339" />
+    <state width="1232" height="396" key="GridCell.Tab.0.center" timestamp="1621884499338">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.center/0.37.2560.1403@0.37.2560.1403" timestamp="1621784693757" />
-    <state width="1232" height="396" key="GridCell.Tab.0.left" timestamp="1621784693757">
+    <state width="1232" height="396" key="GridCell.Tab.0.center/0.37.2560.1403@0.37.2560.1403" timestamp="1621884499338" />
+    <state width="1232" height="396" key="GridCell.Tab.0.left" timestamp="1621884499338">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.left/0.37.2560.1403@0.37.2560.1403" timestamp="1621784693757" />
-    <state width="1232" height="396" key="GridCell.Tab.0.right" timestamp="1621784693757">
+    <state width="1232" height="396" key="GridCell.Tab.0.left/0.37.2560.1403@0.37.2560.1403" timestamp="1621884499338" />
+    <state width="1232" height="396" key="GridCell.Tab.0.right" timestamp="1621884499338">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.right/0.37.2560.1403@0.37.2560.1403" timestamp="1621784693757" />
+    <state width="1232" height="396" key="GridCell.Tab.0.right/0.37.2560.1403@0.37.2560.1403" timestamp="1621884499338" />
   </component>
 </project>

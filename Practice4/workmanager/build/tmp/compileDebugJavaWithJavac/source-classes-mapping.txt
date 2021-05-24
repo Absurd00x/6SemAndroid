@@ -1,0 +1,6 @@
+com/example/workmanager/UploadWorker.java
+ com.example.workmanager.UploadWorker
+com/example/workmanager/BuildConfig.java
+ com.example.workmanager.BuildConfig
+com/example/workmanager/MainActivity.java
+ com.example.workmanager.MainActivity
