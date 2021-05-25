@@ -78,6 +78,16 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.nav_player:
                 navController.navigate(R.id.nav_player);
+                break;
+            case R.id.nav_camera:
+                navController.navigate(R.id.nav_camera);
+                break;
+            case R.id.nav_recording:
+                navController.navigate(R.id.nav_recording);
+                break;
+            case R.id.nav_sensors:
+                navController.navigate(R.id.nav_sensors);
+                break;
             default:
                 break;
         }

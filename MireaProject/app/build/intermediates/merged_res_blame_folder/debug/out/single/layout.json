@@ -4,20 +4,32 @@
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/nav_header_main.xml"
     },
     {
-        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_calculator.xml",
-        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calculator.xml"
-    },
-    {
-        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
-        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_gallery.xml"
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_sensors.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_sensors.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_browser.xml",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_browser.xml"
     },
     {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_camera.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_camera.xml"
+    },
+    {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_calculator.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calculator.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_gallery.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_gallery.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/app_bar_main.xml",
@@ -32,8 +44,8 @@
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_slideshow.xml"
     },
     {
-        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_home.xml",
-        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_recording.xml",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_recording.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_main.xml",

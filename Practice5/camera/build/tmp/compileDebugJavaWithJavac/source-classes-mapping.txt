@@ -1,0 +1,6 @@
+com/example/camera/BuildConfig.java
+ com.example.camera.BuildConfig
+com/example/camera/FileProvider.java
+ com.example.camera.FileProvider
+com/example/camera/MainActivity.java
+ com.example.camera.MainActivity

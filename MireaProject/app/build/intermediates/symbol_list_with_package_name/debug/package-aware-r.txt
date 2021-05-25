@@ -1836,15 +1836,20 @@ id button9
 id buttonClear
 id buttonDelete
 id buttonDivide
+id buttonEndRecording
 id buttonEquals
 id buttonFinish
 id buttonGrid
 id buttonMinus
 id buttonMult
 id buttonPanel
+id buttonPhoto
 id buttonPlay
+id buttonPlayRecording
 id buttonPlus
 id buttonRestart
+id buttonStartRecording
+id buttonStopRecording
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1905,6 +1910,7 @@ id dragStart
 id dragUp
 id drawer_layout
 id dropdown_menu
+id dummyTextView
 id easeIn
 id easeInOut
 id easeOut
@@ -1943,12 +1949,15 @@ id hideable
 id home
 id homeAsUp
 id honorRequest
+id humidityLabel
+id humidityValue
 id icon
 id icon_group
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageContainer
 id imageView
 id info
 id invisible
@@ -1958,6 +1967,9 @@ id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
 id labelGroup
+id labelX
+id labelY
+id labelZ
 id labeled
 id largeLabel
 id layout
@@ -2026,12 +2038,15 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nav_browser
 id nav_calculator
+id nav_camera
 id nav_controller_view_tag
 id nav_gallery
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
 id nav_player
+id nav_recording
+id nav_sensors
 id nav_slideshow
 id nav_view
 id navigation_header_container
@@ -2060,6 +2075,8 @@ id percent
 id pin
 id position
 id postLayout
+id pressureLabel
+id pressureValue
 id progress_circular
 id progress_horizontal
 id radio
@@ -2144,6 +2161,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id temperatureLabel
+id temperatureValue
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -2169,6 +2188,8 @@ id textinput_prefix_text
 id textinput_suffix_text
 id time
 id title
+id title1
+id title2
 id titleDividerNoCustom
 id title_template
 id toggle
@@ -2189,6 +2210,9 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id valueX
+id valueY
+id valueZ
 id view_offset_helper
 id view_tree_lifecycle_owner
 id view_tree_saved_state_registry_owner
@@ -2283,9 +2307,12 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_browser
 layout fragment_calculator
+layout fragment_camera
 layout fragment_gallery
 layout fragment_home
 layout fragment_music_player
+layout fragment_recording
+layout fragment_sensors
 layout fragment_slideshow
 layout material_chip_input_combo
 layout material_clock_display
@@ -3353,6 +3380,7 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml filepaths
 xml standalone_badge
 xml standalone_badge_gravity_bottom_end
 xml standalone_badge_gravity_bottom_start

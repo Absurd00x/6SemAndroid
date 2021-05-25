@@ -1,7 +1,5 @@
-com/example/mireaproject/MainActivity.java
- com.example.mireaproject.MainActivity
-com/example/mireaproject/MyService.java
- com.example.mireaproject.MyService
+com/example/mireaproject/databinding/FragmentCameraBinding.java
+ com.example.mireaproject.databinding.FragmentCameraBinding
 com/example/mireaproject/databinding/ActivityMainBinding.java
  com.example.mireaproject.databinding.ActivityMainBinding
 com/example/mireaproject/ui/gallery/GalleryFragment.java
@@ -9,26 +7,20 @@ com/example/mireaproject/ui/gallery/GalleryFragment.java
  com.example.mireaproject.ui.gallery.GalleryFragment$1
 com/example/mireaproject/ui/home/HomeFragment.java
  com.example.mireaproject.ui.home.HomeFragment
-com/example/mireaproject/BrowserFragment.java
- com.example.mireaproject.BrowserFragment
-com/example/mireaproject/MusicPlayerFragment.java
- com.example.mireaproject.MusicPlayerFragment
+com/example/mireaproject/databinding/FragmentSensorsBinding.java
+ com.example.mireaproject.databinding.FragmentSensorsBinding
 com/example/mireaproject/databinding/FragmentGalleryBinding.java
  com.example.mireaproject.databinding.FragmentGalleryBinding
-com/example/mireaproject/databinding/FragmentCalculatorBinding.java
- com.example.mireaproject.databinding.FragmentCalculatorBinding
 com/example/mireaproject/CalculatorFragment.java
  com.example.mireaproject.CalculatorFragment
 com/example/mireaproject/databinding/FragmentSlideshowBinding.java
  com.example.mireaproject.databinding.FragmentSlideshowBinding
 com/example/mireaproject/ui/home/HomeViewModel.java
  com.example.mireaproject.ui.home.HomeViewModel
+com/example/mireaproject/RecordingFragment.java
+ com.example.mireaproject.RecordingFragment
 com/example/mireaproject/databinding/FragmentBrowserBinding.java
  com.example.mireaproject.databinding.FragmentBrowserBinding
-com/example/mireaproject/databinding/AppBarMainBinding.java
- com.example.mireaproject.databinding.AppBarMainBinding
-com/example/mireaproject/ui/slideshow/SlideshowViewModel.java
- com.example.mireaproject.ui.slideshow.SlideshowViewModel
 com/example/mireaproject/databinding/NavHeaderMainBinding.java
  com.example.mireaproject.databinding.NavHeaderMainBinding
 com/example/mireaproject/databinding/FragmentHomeBinding.java
@@ -44,3 +36,25 @@ com/example/mireaproject/ui/gallery/GalleryViewModel.java
 com/example/mireaproject/ui/slideshow/SlideshowFragment.java
  com.example.mireaproject.ui.slideshow.SlideshowFragment
  com.example.mireaproject.ui.slideshow.SlideshowFragment$1
+com/example/mireaproject/SensorsFragment.java
+ com.example.mireaproject.SensorsFragment
+com/example/mireaproject/MainActivity.java
+ com.example.mireaproject.MainActivity
+com/example/mireaproject/FileProvider.java
+ com.example.mireaproject.FileProvider
+com/example/mireaproject/MyService.java
+ com.example.mireaproject.MyService
+com/example/mireaproject/BrowserFragment.java
+ com.example.mireaproject.BrowserFragment
+com/example/mireaproject/MusicPlayerFragment.java
+ com.example.mireaproject.MusicPlayerFragment
+com/example/mireaproject/databinding/FragmentCalculatorBinding.java
+ com.example.mireaproject.databinding.FragmentCalculatorBinding
+com/example/mireaproject/databinding/FragmentRecordingBinding.java
+ com.example.mireaproject.databinding.FragmentRecordingBinding
+com/example/mireaproject/databinding/AppBarMainBinding.java
+ com.example.mireaproject.databinding.AppBarMainBinding
+com/example/mireaproject/CameraFragment.java
+ com.example.mireaproject.CameraFragment
+com/example/mireaproject/ui/slideshow/SlideshowViewModel.java
+ com.example.mireaproject.ui.slideshow.SlideshowViewModel

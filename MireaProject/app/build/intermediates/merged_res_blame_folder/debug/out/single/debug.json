@@ -32,6 +32,10 @@
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_music_player.xml"
     },
     {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_recording.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_recording.xml"
+    },
+    {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -56,6 +60,10 @@
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/xml_filepaths.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/xml/filepaths.xml"
+    },
+    {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_slideshow.xml.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_slideshow.xml"
     },
@@ -70,6 +78,10 @@
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/drawable_ic_menu_gallery.xml.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_sensors.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_sensors.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
@@ -94,6 +106,10 @@
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/drawable_ic_menu_camera.xml.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_camera.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_camera.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",

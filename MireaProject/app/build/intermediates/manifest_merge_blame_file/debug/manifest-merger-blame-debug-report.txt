@@ -13,52 +13,79 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:5:5-67
 11-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <application
-13-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:7:5-29:19
-14        android:allowBackup="true"
-14-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:8:9-35
-15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/AndroidManifest.xml:24:18-86
-16        android:debuggable="true"
-17        android:icon="@mipmap/ic_launcher"
-17-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:9:9-43
-18        android:label="@string/app_name"
-18-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:10:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:11:9-54
-20        android:supportsRtl="true"
-20-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:12:9-35
-21        android:theme="@style/Theme.MireaProject" >
-21-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:13:9-50
-22        <service
-22-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:14:9-17:47
-23            android:name="com.example.mireaproject.MyService"
-23-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:15:13-38
-24            android:enabled="true"
-24-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:16:13-35
-25            android:exported="true" />
-25-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:17:13-36
-26
-27        <activity
-27-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:19:9-28:20
-28            android:name="com.example.mireaproject.MainActivity"
-28-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:20:13-41
-29            android:label="@string/app_name"
-29-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:21:13-45
-30            android:theme="@style/Theme.MireaProject.NoActionBar" >
-30-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:22:13-66
-31            <intent-filter>
-31-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:23:13-27:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:24:17-69
-32-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:24:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:26:17-77
-34-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:26:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:6:22-62
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:7:5-71
+13-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:7:22-68
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:8:5-81
+14-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:8:22-78
+15
+16    <application
+16-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:10:5-42:19
+17        android:allowBackup="true"
+17-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:11:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:12:9-43
+21        android:label="@string/app_name"
+21-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:13:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:14:9-54
+23        android:supportsRtl="true"
+23-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:15:9-35
+24        android:theme="@style/Theme.MireaProject" >
+24-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:16:9-50
+25        <service
+25-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:17:9-20:47
+26            android:name="com.example.mireaproject.MyService"
+26-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:18:13-38
+27            android:enabled="true"
+27-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:19:13-35
+28            android:exported="true" />
+28-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:20:13-36
+29
+30        <provider
+30-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:22:9-30:20
+31            android:name="androidx.core.content.FileProvider"
+31-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:23:13-62
+32            android:authorities="com.example.mireaproject.FileProvider"
+32-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:24:13-72
+33            android:exported="false"
+33-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:25:13-37
+34            android:grantUriPermissions="true" >
+34-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:26:13-47
+35            <meta-data
+35-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:27:13-29:53
+36                android:name="android.support.FILE_PROVIDER_PATHS"
+36-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:28:17-67
+37                android:resource="@xml/filepaths" />
+37-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:29:17-50
+38        </provider>
+39
+40        <activity
+40-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:32:9-41:20
+41            android:name="com.example.mireaproject.MainActivity"
+41-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:33:13-41
+42            android:label="@string/app_name"
+42-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:34:13-45
+43            android:theme="@style/Theme.MireaProject.NoActionBar" >
+43-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:35:13-66
+44            <intent-filter>
+44-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:36:13-40:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:37:17-69
+45-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:37:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:39:17-77
+47-->/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/AndroidManifest.xml:39:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

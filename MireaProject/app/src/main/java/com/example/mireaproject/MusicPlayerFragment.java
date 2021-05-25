@@ -74,8 +74,14 @@ public class MusicPlayerFragment extends Fragment {
 
     }
 
+    private void launchService() {
+        Intent intent = new Intent(fa, MyService.class);
+        intent.putExtra("id", R.raw.baba);
+        fa.startService(intent);
+    }
+
     public void onPlayClick(View v) {
-        fa.startService(new Intent(fa, MyService.class));
+        launchService();
     }
 
     public void onFinishClick(View v) {
@@ -84,7 +90,7 @@ public class MusicPlayerFragment extends Fragment {
 
     public void onRestartClick(View v) {
         fa.stopService(new Intent(fa, MyService.class));
-        fa.startService(new Intent(fa, MyService.class));
+        launchService();
     }
 
     @Override
