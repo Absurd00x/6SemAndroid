@@ -7,6 +7,8 @@ com/example/mireaproject/ui/gallery/GalleryFragment.java
  com.example.mireaproject.ui.gallery.GalleryFragment$1
 com/example/mireaproject/ui/home/HomeFragment.java
  com.example.mireaproject.ui.home.HomeFragment
+com/example/mireaproject/databinding/FragmentMapsBinding.java
+ com.example.mireaproject.databinding.FragmentMapsBinding
 com/example/mireaproject/databinding/FragmentSensorsBinding.java
  com.example.mireaproject.databinding.FragmentSensorsBinding
 com/example/mireaproject/databinding/FragmentGalleryBinding.java
@@ -15,6 +17,8 @@ com/example/mireaproject/CalculatorFragment.java
  com.example.mireaproject.CalculatorFragment
 com/example/mireaproject/databinding/FragmentSlideshowBinding.java
  com.example.mireaproject.databinding.FragmentSlideshowBinding
+com/example/mireaproject/MapsFragment.java
+ com.example.mireaproject.MapsFragment
 com/example/mireaproject/ui/home/HomeViewModel.java
  com.example.mireaproject.ui.home.HomeViewModel
 com/example/mireaproject/RecordingFragment.java

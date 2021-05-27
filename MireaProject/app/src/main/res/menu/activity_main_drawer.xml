@@ -28,5 +28,9 @@
             android:id="@+id/nav_recording"
             android:onClick="onClick"
             android:title="Recording" />
+        <item
+            android:id="@+id/nav_maps"
+            android:onClick="onClick"
+            android:title="Maps" />
     </group>
 </menu>

@@ -1,0 +1,211 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.lab1"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:5:5-81
+11-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:6:5-79
+12-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+13-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:7:5-85
+13-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:7:22-82
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:13:5-79
+14-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:13:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:14:5-67
+15-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:14:22-64
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:15:5-81
+16-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:15:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:16:5-76
+17-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:16:22-73
+18    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+18-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:17:5-76
+18-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:17:22-73
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:19:5-68
+19-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:19:22-65
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:20:5-81
+20-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:20:22-78
+21    <uses-permission android:name="android.permission.BLUETOOTH" />
+21-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:21:5-68
+21-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:21:22-65
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+22-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:22:5-74
+22-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:22:22-71
+23    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+28
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+33    </queries>
+34
+35    <application
+35-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:9:5-23:19
+36        android:allowBackup="true"
+36-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:10:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:11:9-43
+40        android:label="@string/app_name"
+40-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:12:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:13:9-54
+42        android:supportsRtl="true"
+42-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:14:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.Lab1" >
+44-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:15:9-42
+45        <activity android:name="com.example.yandexmaps.MainActivity" >
+45-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:16:9-22:20
+45-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:16:19-47
+46            <intent-filter>
+46-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:17:13-21:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:18:17-69
+47-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:18:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:20:17-77
+49-->/home/user/Programming/6 sem Android/AndroidStudioProjects/Lab1/yandexmaps/src/main/AndroidManifest.xml:20:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <meta-data
+53-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:25:9-27:38
+54            android:name="yandex.maps.runtime.stl.linkage"
+54-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:26:13-59
+55            android:value="static" />
+55-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:27:13-35
+56
+57        <service
+57-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:29:9-32:72
+58            android:name="com.evernote.android.job.patched.internal.v21.PlatformJobService"
+58-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:30:13-92
+59            android:exported="false"
+59-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:31:13-37
+60            android:permission="android.permission.BIND_JOB_SERVICE" />
+60-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:32:13-69
+61        <service
+61-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:33:9-36:72
+62            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmService"
+62-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:34:13-94
+63            android:exported="false"
+63-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:35:13-37
+64            android:permission="android.permission.BIND_JOB_SERVICE" />
+64-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:36:13-69
+65        <service
+65-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:37:9-39:40
+66            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmServiceExact"
+66-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:38:13-99
+67            android:exported="false" />
+67-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:39:13-37
+68
+69        <receiver
+69-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:41:9-50:20
+70            android:name="com.evernote.android.job.patched.internal.v14.PlatformAlarmReceiver"
+70-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:42:13-95
+71            android:exported="false" >
+71-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:43:13-37
+72            <intent-filter>
+72-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:44:13-49:29
+73
+74                <!-- Keep the filter for legacy intents -->
+75                <action android:name="com.evernote.android.job.patched.internal.v14.RUN_JOB" />
+75-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:47:17-96
+75-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:47:25-93
+76                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+76-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:48:17-78
+76-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:48:25-75
+77            </intent-filter>
+78        </receiver>
+79        <receiver
+79-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:51:9-60:20
+80            android:name="com.evernote.android.job.patched.internal.JobBootReceiver"
+80-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:52:13-85
+81            android:exported="false" >
+81-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:53:13-37
+82            <intent-filter>
+82-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:54:13-59:29
+83                <action android:name="android.intent.action.BOOT_COMPLETED" />
+83-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:55:17-79
+83-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:55:25-76
+84                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+84-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:56:17-82
+84-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:56:25-79
+85                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+85-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:57:17-82
+85-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:57:25-79
+86                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+86-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:58:17-84
+86-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:58:25-81
+87            </intent-filter>
+88        </receiver>
+89
+90        <service
+90-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:62:9-65:72
+91            android:name="com.evernote.android.job.patched.internal.JobRescheduleService"
+91-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:63:13-90
+92            android:exported="false"
+92-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:64:13-37
+93            android:permission="android.permission.BIND_JOB_SERVICE" />
+93-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:65:13-69
+94        <service
+94-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:66:9-69:72
+95            android:name="com.yandex.runtime.connectivity.internal.ConnectivityService"
+95-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:67:13-88
+96            android:exported="true"
+96-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:68:13-36
+97            android:permission="android.permission.BIND_JOB_SERVICE" /> <!-- Needs to be explicitly declared on P+ -->
+97-->[com.yandex.android:maps.mobile:4.0.0-full] /home/user/.gradle/caches/transforms-2/files-2.1/7414eea6972da77101bb5e3225329457/maps.mobile-4.0.0-full/AndroidManifest.xml:69:13-69
+98        <uses-library
+98-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+99            android:name="org.apache.http.legacy"
+99-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+100            android:required="false" />
+100-->[com.google.android.gms:play-services-maps:17.0.1] /home/user/.gradle/caches/transforms-2/files-2.1/c544b370acc98d44be3bf19062e2e0f6/play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+101
+102        <activity
+102-->[com.google.android.gms:play-services-base:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+103            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+103-->[com.google.android.gms:play-services-base:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+104            android:exported="false"
+104-->[com.google.android.gms:play-services-base:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+105            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+105-->[com.google.android.gms:play-services-base:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/5d8bee59a82526eeea78e2d510654d9f/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+106
+107        <meta-data
+107-->[com.google.android.gms:play-services-basement:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+108            android:name="com.google.android.gms.version"
+108-->[com.google.android.gms:play-services-basement:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+109            android:value="@integer/google_play_services_version" />
+109-->[com.google.android.gms:play-services-basement:17.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/a4564273a0f10cadd31b356ef6b80ba0/play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+110    </application>
+111
+112</manifest>

@@ -69,27 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(MenuItem item) {
         navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
-        switch (item.getItemId()) {
-            case R.id.nav_browser:
-                navController.navigate(R.id.nav_browser);
-                break;
-            case R.id.nav_calculator:
-                navController.navigate(R.id.nav_calculator);
-                break;
-            case R.id.nav_player:
-                navController.navigate(R.id.nav_player);
-                break;
-            case R.id.nav_camera:
-                navController.navigate(R.id.nav_camera);
-                break;
-            case R.id.nav_recording:
-                navController.navigate(R.id.nav_recording);
-                break;
-            case R.id.nav_sensors:
-                navController.navigate(R.id.nav_sensors);
-                break;
-            default:
-                break;
-        }
+        navController.navigate(item.getItemId());
     }
 }

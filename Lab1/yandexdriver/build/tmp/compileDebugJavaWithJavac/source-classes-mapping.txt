@@ -1,0 +1,6 @@
+com/example/yandexdriver/BuildConfig.java
+ com.example.yandexdriver.BuildConfig
+com/example/yandexdriver/databinding/ActivityMainBinding.java
+ com.example.yandexdriver.databinding.ActivityMainBinding
+com/example/yandexdriver/MainActivity.java
+ com.example.yandexdriver.MainActivity

@@ -1,0 +1,6 @@
+com/example/yandexmaps/databinding/ActivityMainBinding.java
+ com.example.yandexmaps.databinding.ActivityMainBinding
+com/example/yandexmaps/BuildConfig.java
+ com.example.yandexmaps.BuildConfig
+com/example/yandexmaps/MainActivity.java
+ com.example.yandexmaps.MainActivity
