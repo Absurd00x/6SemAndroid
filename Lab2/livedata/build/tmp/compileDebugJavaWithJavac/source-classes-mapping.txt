@@ -1,0 +1,7 @@
+com/example/livedata/TimeLiveData.java
+ com.example.livedata.TimeLiveData
+com/example/livedata/MainActivity.java
+ com.example.livedata.MainActivity
+ com.example.livedata.MainActivity$1
+com/example/livedata/BuildConfig.java
+ com.example.livedata.BuildConfig

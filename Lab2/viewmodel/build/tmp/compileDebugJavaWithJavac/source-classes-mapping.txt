@@ -1,0 +1,8 @@
+com/example/viewmodel/BuildConfig.java
+ com.example.viewmodel.BuildConfig
+com/example/viewmodel/MainActivity.java
+ com.example.viewmodel.MainActivity
+ com.example.viewmodel.MainActivity$1
+com/example/viewmodel/ProgressViewModel.java
+ com.example.viewmodel.ProgressViewModel
+ com.example.viewmodel.ProgressViewModel$1

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab2.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycle/Lab2.lifecycle.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycle/Lab2.lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/livedata/Lab2.livedata.iml" filepath="$PROJECT_DIR$/.idea/modules/livedata/Lab2.livedata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/networkstate/Lab2.networkstate.iml" filepath="$PROJECT_DIR$/.idea/modules/networkstate/Lab2.networkstate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodel/Lab2.viewmodel.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodel/Lab2.viewmodel.iml" />
+    </modules>
+  </component>
+</project>
