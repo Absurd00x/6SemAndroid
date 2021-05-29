@@ -58,7 +58,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/contactsRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="635dp">
+        android:layout_height="522dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 

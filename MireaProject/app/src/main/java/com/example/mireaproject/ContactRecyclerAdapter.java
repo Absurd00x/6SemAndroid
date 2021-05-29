@@ -53,14 +53,14 @@ public class ContactRecyclerAdapter extends RecyclerView.Adapter<ContactRecycler
     }
 
     //View Holder
-    class ViewHolder extends RecyclerView.ViewHolder implements View.OnLongClickListener {
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnLongClickListener{
         private TextView mNameTextView;
         private TextView mPhoneTextView;
 
         ViewHolder(View itemView) {
             super(itemView);
 
-            itemView.setOnLongClickListener(this);
+            itemView.setOnClickListener(this::onLongClick);
 
             mNameTextView = itemView.findViewById(R.id.nameTextView);
             mPhoneTextView = itemView.findViewById(R.id.phoneTextView);
@@ -77,9 +77,8 @@ public class ContactRecyclerAdapter extends RecyclerView.Adapter<ContactRecycler
 
         @Override
         public boolean onLongClick(View v) {
-            if (mActionCallbacks != null) {
+            if (mActionCallbacks != null)
                 mActionCallbacks.onLongClickListener(contactList.get(getAdapterPosition()));
-            }
             return true;
         }
     }

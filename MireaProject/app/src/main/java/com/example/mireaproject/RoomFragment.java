@@ -1,17 +1,13 @@
 package com.example.mireaproject;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.database.sqlite.SQLiteConstraintException;
 import android.database.sqlite.SQLiteException;
 import android.os.Bundle;
 
-import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.room.Room;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,8 +15,6 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -43,9 +37,8 @@ public class RoomFragment extends Fragment {
     private FragmentActivity fa;
     private static final int RC_CREATE_CONTACT = 1;
     private static final int RC_UPDATE_CONTACT = 2;
-    private RecyclerView mContactsRecyclerView;
+    private static ContactDAO dao;
     private ContactRecyclerAdapter mContactRecyclerAdapter;
-    private ContactDAO mContactDAO;
     private EditText phoneText, firstNameText, lastNameText;
 
     public RoomFragment() {
@@ -77,6 +70,7 @@ public class RoomFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        dao = Database.getInstance(getContext()).getContactDAO();
     }
 
     @Override
@@ -84,12 +78,7 @@ public class RoomFragment extends Fragment {
         super.onStart();
         fa = getActivity();
 
-        mContactDAO = Room.databaseBuilder(fa, AppDatabase.class, "db-contacts")
-                .allowMainThreadQueries()   //Allows room to do operation on main thread
-                .build()
-                .getContactDAO();
-
-        mContactsRecyclerView = fa.findViewById(R.id.contactsRecyclerView);
+        RecyclerView mContactsRecyclerView = fa.findViewById(R.id.contactsRecyclerView);
         mContactsRecyclerView.setLayoutManager(new LinearLayoutManager(fa));
 
         mContactRecyclerAdapter = new ContactRecyclerAdapter(fa, new ArrayList<Contact>());
@@ -147,7 +136,7 @@ public class RoomFragment extends Fragment {
         contact.dateCreated = new Date();
 
         try {
-            mContactDAO.insert(contact);
+            dao.insert(contact);
         } catch (SQLiteConstraintException e) {
             Toast.makeText(fa, "Контакт с таким номером уже существует", Toast.LENGTH_SHORT).show();
         }
@@ -159,7 +148,7 @@ public class RoomFragment extends Fragment {
             return null;
 
         try {
-            Contact contact = mContactDAO.getContactWithId(phoneText.getText().toString());
+            Contact contact = dao.getContactWithId(phoneText.getText().toString());
             return contact;
         } catch (SQLiteException e) {
             Toast.makeText(fa, "Что-то пошло не так", Toast.LENGTH_SHORT).show();
@@ -170,12 +159,12 @@ public class RoomFragment extends Fragment {
     private void onRemoveClick(View view) {
         Contact contact = getContact();
         if (contact != null)
-            mContactDAO.delete(contact);
+            dao.delete(contact);
         loadContacts();
     }
 
     private void loadContacts() {
-        mContactRecyclerAdapter.updateData(mContactDAO.getContacts());
+        mContactRecyclerAdapter.updateData(dao.getContacts());
     }
 
     @Override

@@ -1,0 +1,6 @@
+com/example/internalfilestorage/BuildConfig.java
+ com.example.internalfilestorage.BuildConfig
+com/example/internalfilestorage/MainActivity.java
+ com.example.internalfilestorage.MainActivity
+ com.example.internalfilestorage.MainActivity$1
+ com.example.internalfilestorage.MainActivity$1$1

@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_stories.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_stories.xml"
+    },
+    {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/raw_baba.ogg.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/raw/baba.ogg"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_item_recycler_story.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/item_recycler_story.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
@@ -82,6 +90,10 @@
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_maps.xml.flat",
         "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_maps.xml"
+    },
+    {
+        "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/layout_fragment_preferences.xml.flat",
+        "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_preferences.xml"
     },
     {
         "merged": "/home/user/Programming/6 sem Android/AndroidStudioProjects/MireaProject/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",

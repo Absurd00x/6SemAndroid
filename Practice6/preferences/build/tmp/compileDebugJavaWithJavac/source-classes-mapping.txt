@@ -1,0 +1,4 @@
+com/example/preferences/MainActivity.java
+ com.example.preferences.MainActivity
+com/example/preferences/BuildConfig.java
+ com.example.preferences.BuildConfig

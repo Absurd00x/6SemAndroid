@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutoImportSettings">
@@ -32,114 +32,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02f91cca-2fe0-4ed7-a87d-85c255fbae8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/androidTest/java/com/example/lifecycle/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/java/com/example/lifecycle/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/java/com/example/lifecycle/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/lifecycle/src/test/java/com/example/lifecycle/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/androidTest/java/com/example/livedata/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/java/com/example/livedata/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/java/com/example/livedata/TimeLiveData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/livedata/src/test/java/com/example/livedata/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/androidTest/java/com/example/networkstate/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/java/com/example/networkstate/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/java/com/example/networkstate/NetworkLiveData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/networkstate/src/test/java/com/example/networkstate/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/androidTest/java/com/example/viewmodel/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/java/com/example/viewmodel/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/java/com/example/viewmodel/ProgressViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/viewmodel/src/test/java/com/example/viewmodel/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/androidTest/java/com/example/internalfilestorage/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/java/com/example/internalfilestorage/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/internalfilestorage/src/test/java/com/example/internalfilestorage/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/androidTest/java/com/example/notebook/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/java/com/example/notebook/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/java/com/example/notebook/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/notebook/src/test/java/com/example/notebook/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/androidTest/java/com/example/preferences/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/java/com/example/preferences/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/preferences/src/test/java/com/example/preferences/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/androidTest/java/com/example/room/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/java/com/example/room/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/java/com/example/room/AppDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/java/com/example/room/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/java/com/example/room/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/java/com/example/room/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice6/room/src/test/java/com/example/room/ExampleUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -150,118 +152,58 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_17_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MireaProject.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MireaProject.app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/mireaproject/AppDatabase_Impl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/ap_generated_sources/debug/out/com/example/mireaproject/ContactDAO_Impl.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.example.mireaproject-binding_classes.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_base_class_log_artifact/debug/out/com.example.mireaproject-binding_classes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_0/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/desugar_graph/debug/out/currentProject/dirs_bucket_1/graph.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/item_recycler_contact-layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/data_binding_layout_info_type_merge/debug/out/item_recycler_contact-layout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/dataBindingGenBaseClassesDebug/base_builder_log.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ir8PvLVxdykpV6CkwbHmIBZgK+E=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ir8PvLVxdykpV6CkwbHmIBZgK+E=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OBxIRmQBv6odmLsVD41RQ82iGh8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OBxIRmQBv6odmLsVD41RQ82iGh8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ir8PvLVxdykpV6CkwbHmIBZgK+E=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ir8PvLVxdykpV6CkwbHmIBZgK+E=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OBxIRmQBv6odmLsVD41RQ82iGh8=" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OBxIRmQBv6odmLsVD41RQ82iGh8=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_maps.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_recycler_contact.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/BrowserFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/BrowserFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/CalculatorFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/CalculatorFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/SensorsFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/SensorsFragment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/ActivityMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/ActivityMainBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/AppBarMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/AppBarMainBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentBrowserBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentBrowserBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentCalculatorBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentCalculatorBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentGalleryBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentGalleryBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentHomeBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentHomeBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentMusicPlayerBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentMusicPlayerBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentSensorsBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentSensorsBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentSlideshowBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/FragmentSlideshowBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/NavHeaderMainBinding.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/databinding/NavHeaderMainBinding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/AppDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/AppDatabase_Impl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/AppDatabase_Impl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/ContactRecyclerAdapter$ViewHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/ContactRecyclerAdapter$ViewHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/ContactRecyclerAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/ContactRecyclerAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/RoomFragment$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/RoomFragment$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/RoomFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/mireaproject/RoomFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/layout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/6b5647b7a967daa370c44a873055d3a69d046683a06b8bd319496fe832af334f_0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/6b5647b7a967daa370c44a873055d3a69d046683a06b8bd319496fe832af334f_1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/BrowserFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/BrowserFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/BuildConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/BuildConfig.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/CalculatorFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/CalculatorFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/CameraFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/CameraFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/FileProvider.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/FileProvider.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MapsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MapsFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MusicPlayerFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MusicPlayerFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MyService.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/MyService.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RecordingFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RecordingFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/SensorsFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/SensorsFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/ActivityMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/ActivityMainBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/AppBarMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/AppBarMainBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/ContentMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/ContentMainBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentBrowserBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentBrowserBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentCalculatorBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentCalculatorBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentCameraBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentCameraBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentGalleryBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentGalleryBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentHomeBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentHomeBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentMapsBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentMapsBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentMusicPlayerBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentMusicPlayerBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentRecordingBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentRecordingBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentSensorsBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentSensorsBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentSlideshowBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/FragmentSlideshowBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/NavHeaderMainBinding.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/databinding/NavHeaderMainBinding.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryFragment$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/gallery/GalleryViewModel.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/home/HomeFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/home/HomeFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/home/HomeViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/home/HomeViewModel.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowFragment$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowFragment.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowViewModel.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ui/slideshow/SlideshowViewModel.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/70a4e376e452eef9ba23958d8cc710240b22fba0d6e634f1ddf702eff512f55b_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/70a4e376e452eef9ba23958d8cc710240b22fba0d6e634f1ddf702eff512f55b_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/AppDatabase.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/AppDatabase_Impl$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/AppDatabase_Impl.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ContactRecyclerAdapter$ViewHolder.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ContactRecyclerAdapter$ViewHolder.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ContactRecyclerAdapter.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/ContactRecyclerAdapter.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RoomFragment$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RoomFragment$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RoomFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/mireaproject/RoomFragment.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_room.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_fragment_room.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_recycler_contact.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_item_recycler_contact.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_activity_main_drawer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu_activity_main_drawer.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/signing_config_versions/debug/signing-config-versions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/AppDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/ContactRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/ContactRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/RoomFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mireaproject/RoomFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_room.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_room.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_recycler_contact.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,10 +221,10 @@
       <list>
         <option value="valueResourceFile" />
         <option value="Interface" />
-        <option value="layoutResourceFile" />
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -308,15 +250,18 @@
     <key name="android.template.1700568084">
       <recent name="com.example.mireaproject" />
     </key>
-    <key name="android.template.1079169254">
-      <recent name="com.example.mireaproject" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.mireaproject" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
       <recent name="$PROJECT_DIR$/app/src/main/res/raw" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.mireaproject" />
+    </key>
+    <key name="android.template.1079169254">
+      <recent name="com.example.mireaproject" />
     </key>
   </component>
   <component name="RunManager">
@@ -414,26 +359,34 @@
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1549" y="420" width="734" height="632" key="#Inspections/0.37.2560.1403@0.37.2560.1403" timestamp="1622190519730" />
-    <state x="1728" y="447" width="376" height="578" key="#com.intellij.ide.util.MemberChooser" timestamp="1622115247209">
+    <state x="1728" y="447" width="376" height="578" key="#com.intellij.ide.util.MemberChooser" timestamp="1622290649804">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state x="1728" y="447" width="376" height="578" key="#com.intellij.ide.util.MemberChooser/0.37.2560.1403@0.37.2560.1403" timestamp="1622115247209" />
+    <state x="1728" y="447" width="376" height="578" key="#com.intellij.ide.util.MemberChooser/0.37.2560.1403@0.37.2560.1403" timestamp="1622290649804" />
     <state x="1652" y="531" width="527" height="410" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1621779284989">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1652" y="531" width="527" height="410" key="#com.intellij.ide.util.TreeClassChooserDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621779284989" />
-    <state x="1653" y="488" width="526" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622195871748">
+    <state x="1703" y="608" width="433" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1622229035931">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state x="1653" y="488" width="526" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622195871748" />
+    <state x="1703" y="608" width="433" height="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.37.2560.1403@0.37.2560.1403" timestamp="1622229035931" />
+    <state x="1070" y="37" width="1482" height="1398" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622227435283">
+      <screen x="0" y="37" width="2560" height="1403" />
+    </state>
+    <state x="1070" y="37" width="1482" height="1398" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622227435283" />
+    <state x="1653" y="488" width="526" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622227412735">
+      <screen x="0" y="37" width="2560" height="1403" />
+    </state>
+    <state x="1653" y="488" width="526" height="496" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622227412735" />
     <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog" timestamp="1621964633846">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1503" y="496" width="826" height="479" key="AndroidCreateResourceDirectoryDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1621964633846" />
-    <state x="1503" y="496" width="826" height="475" key="AndroidCreateResourceFileDialog" timestamp="1622196231358">
+    <state x="1503" y="496" width="826" height="475" key="AndroidCreateResourceFileDialog" timestamp="1622228292876">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state x="1503" y="496" width="826" height="475" key="AndroidCreateResourceFileDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622196231358" />
+    <state x="1503" y="496" width="826" height="475" key="AndroidCreateResourceFileDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622228292876" />
     <state x="1832" y="736" width="309" height="375" key="AndroidCreateXmlResourceDialog" timestamp="1622034234697">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
@@ -442,33 +395,37 @@
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1703" y="496" width="426" height="479" key="FileChooserDialogImpl/0.37.2560.1403@0.37.2560.1403" timestamp="1622034145615" />
-    <state width="1232" height="396" key="GridCell.Tab.0.bottom" timestamp="1622202227751">
+    <state width="1232" height="436" key="GridCell.Tab.0.bottom" timestamp="1622289379163">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.bottom/0.37.2560.1403@0.37.2560.1403" timestamp="1622202227751" />
-    <state width="1232" height="396" key="GridCell.Tab.0.center" timestamp="1622202227751">
+    <state width="1232" height="436" key="GridCell.Tab.0.bottom/0.37.2560.1403@0.37.2560.1403" timestamp="1622289379163" />
+    <state width="1232" height="436" key="GridCell.Tab.0.center" timestamp="1622289379163">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.center/0.37.2560.1403@0.37.2560.1403" timestamp="1622202227751" />
-    <state width="1232" height="396" key="GridCell.Tab.0.left" timestamp="1622202227751">
+    <state width="1232" height="436" key="GridCell.Tab.0.center/0.37.2560.1403@0.37.2560.1403" timestamp="1622289379163" />
+    <state width="1232" height="436" key="GridCell.Tab.0.left" timestamp="1622289379162">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.left/0.37.2560.1403@0.37.2560.1403" timestamp="1622202227751" />
-    <state width="1232" height="396" key="GridCell.Tab.0.right" timestamp="1622202227751">
+    <state width="1232" height="436" key="GridCell.Tab.0.left/0.37.2560.1403@0.37.2560.1403" timestamp="1622289379162" />
+    <state width="1232" height="436" key="GridCell.Tab.0.right" timestamp="1622289379163">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state width="1232" height="396" key="GridCell.Tab.0.right/0.37.2560.1403@0.37.2560.1403" timestamp="1622202227751" />
+    <state width="1232" height="436" key="GridCell.Tab.0.right/0.37.2560.1403@0.37.2560.1403" timestamp="1622289379163" />
     <state x="1424" y="373" key="SettingsEditor" timestamp="1622115292774">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1424" y="373" key="SettingsEditor/0.37.2560.1403@0.37.2560.1403" timestamp="1622115292774" />
-    <state x="1728" y="519" width="376" height="434" key="chooseDestDirectoryDialog" timestamp="1622196028340">
+    <state x="1728" y="519" width="376" height="434" key="chooseDestDirectoryDialog" timestamp="1622228463173">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
-    <state x="1728" y="519" width="376" height="434" key="chooseDestDirectoryDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622196028340" />
+    <state x="1728" y="519" width="376" height="434" key="chooseDestDirectoryDialog/0.37.2560.1403@0.37.2560.1403" timestamp="1622228463173" />
     <state x="1583" y="347" key="run.anything.popup" timestamp="1622060358369">
       <screen x="0" y="37" width="2560" height="1403" />
     </state>
     <state x="1583" y="347" key="run.anything.popup/0.37.2560.1403@0.37.2560.1403" timestamp="1622060358369" />
+    <state x="1583" y="356" width="672" height="678" key="search.everywhere.popup" timestamp="1622287854092">
+      <screen x="0" y="37" width="2560" height="1403" />
+    </state>
+    <state x="1583" y="356" width="672" height="678" key="search.everywhere.popup/0.37.2560.1403@0.37.2560.1403" timestamp="1622287854092" />
   </component>
 </project>

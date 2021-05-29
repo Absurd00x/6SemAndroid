@@ -1,0 +1,4 @@
+com/example/notebook/BuildConfig.java
+ com.example.notebook.BuildConfig
+com/example/notebook/MainActivity.java
+ com.example.notebook.MainActivity

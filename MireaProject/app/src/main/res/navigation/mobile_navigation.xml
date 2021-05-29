@@ -51,14 +51,13 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.mireaproject.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_preferences"
+        android:name="com.example.mireaproject.PreferencesFragment"
+        tools:layout="@layout/fragment_preferences" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.mireaproject.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_stories"
+        android:name="com.example.mireaproject.StoriesFragment"
+        tools:layout="@layout/fragment_stories" />
+
 </navigation>
