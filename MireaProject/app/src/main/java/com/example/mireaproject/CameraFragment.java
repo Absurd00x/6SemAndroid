@@ -4,13 +4,10 @@ import android.Manifest;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.icu.text.SimpleDateFormat;
 import android.net.Uri;
-import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
-import androidx.annotation.RequiresApi;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
@@ -83,7 +80,6 @@ public class CameraFragment extends Fragment {
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onStart() {
         super.onStart();
@@ -111,10 +107,9 @@ public class CameraFragment extends Fragment {
                 && storagePermissionStatus == PackageManager.PERMISSION_GRANTED;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     public void onTakePhoto(View v) {
         if (!tryGetPermissions()) {
-            Toast.makeText(fa, "У приложения недостаточно прав\nдля этой операции!",
+            Toast.makeText(fa, "У приложения недостаточно прав для этой операции!",
                     Toast.LENGTH_LONG).show();
             return;
         }
@@ -128,28 +123,23 @@ public class CameraFragment extends Fragment {
             }
             // генерирование пути к файлу на основе authorities
             String authorities = fa.getApplicationContext().getPackageName() + ".FileProvider";
-            imageUri = FileProvider.getUriForFile(fa, authorities, photoFile);
+            imageUri = androidx.core.content.FileProvider.getUriForFile(fa, authorities, photoFile);
             cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, imageUri);
             startActivityForResult(cameraIntent, CAMERA_REQUEST);
         }
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
+
     private File createImageFile() throws IOException {
-        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String timeStamp = android.text.format.DateFormat.format("yyyy-MM-dd kk:mm", new Date()).toString();
         String imageFileName = "IMAGE_" + timeStamp + "_";
         File storageDirectory = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
         return File.createTempFile(imageFileName, ".jpg", storageDirectory);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Override
     public void onActivityResult(int requestCode, int resultCode, @Nullable @org.jetbrains.annotations.Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        Log.i("fdsafdsa", "I am here");
-        Log.i("resultCode", String.valueOf(requestCode));
-        Log.i("write", String.valueOf(fa.checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE)));
-        Log.i("camera", String.valueOf(fa.checkSelfPermission(Manifest.permission.CAMERA)));
         if (resultCode == Activity.RESULT_OK) {
             Log.i("asdfasdf", "I am here");
             imageView.setImageURI(imageUri);
@@ -161,5 +151,8 @@ public class CameraFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_camera, container, false);
+    }
+
+    public static class FileProvider {
     }
 }

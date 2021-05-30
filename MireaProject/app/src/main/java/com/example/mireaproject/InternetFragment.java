@@ -15,6 +15,7 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.core.app.ActivityCompat;
@@ -44,6 +45,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.tasks.CancellationToken;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnTokenCanceledListener;
 import com.google.android.gms.tasks.Task;
 
@@ -260,6 +262,7 @@ public class InternetFragment extends Fragment implements LocationListener {
     @SuppressLint("MissingPermission")
     private void postJob() {
         FusedLocationProviderClient locationProviderClient = new FusedLocationProviderClient(fa);
+        locationProviderClient.flushLocations();
         locationProviderClient.getCurrentLocation(LocationRequest.PRIORITY_HIGH_ACCURACY, new CancellationToken() {
             @Override
             public boolean isCancellationRequested() {
@@ -276,6 +279,11 @@ public class InternetFragment extends Fragment implements LocationListener {
             @Override
             public void onComplete(@NonNull @NotNull Task<Location> task) {
                 sendRequest(task.getResult());
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull @NotNull Exception e) {
+                Toast.makeText(fa,"Не удалось определить местоположение", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.TableLayout;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -42,7 +42,7 @@ public final class FragmentInternetBinding implements ViewBinding {
   public final TextView labelWind;
 
   @NonNull
-  public final TableLayout tableLayout;
+  public final LinearLayout linearLayout;
 
   @NonNull
   public final TextView valueForecast;
@@ -65,7 +65,7 @@ public final class FragmentInternetBinding implements ViewBinding {
   private FragmentInternetBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonAPICall,
       @NonNull TextView labelForcast, @NonNull TextView labelHumidity,
       @NonNull TextView labelPressure, @NonNull TextView labelTemperature,
-      @NonNull TextView labelTime, @NonNull TextView labelWind, @NonNull TableLayout tableLayout,
+      @NonNull TextView labelTime, @NonNull TextView labelWind, @NonNull LinearLayout linearLayout,
       @NonNull TextView valueForecast, @NonNull TextView valueHumidity,
       @NonNull TextView valuePressure, @NonNull TextView valueTemperature,
       @NonNull TextView valueTime, @NonNull TextView valueWind) {
@@ -77,7 +77,7 @@ public final class FragmentInternetBinding implements ViewBinding {
     this.labelTemperature = labelTemperature;
     this.labelTime = labelTime;
     this.labelWind = labelWind;
-    this.tableLayout = tableLayout;
+    this.linearLayout = linearLayout;
     this.valueForecast = valueForecast;
     this.valueHumidity = valueHumidity;
     this.valuePressure = valuePressure;
@@ -155,9 +155,9 @@ public final class FragmentInternetBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tableLayout;
-      TableLayout tableLayout = rootView.findViewById(id);
-      if (tableLayout == null) {
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = rootView.findViewById(id);
+      if (linearLayout == null) {
         break missingId;
       }
 
@@ -198,7 +198,7 @@ public final class FragmentInternetBinding implements ViewBinding {
       }
 
       return new FragmentInternetBinding((ConstraintLayout) rootView, buttonAPICall, labelForcast,
-          labelHumidity, labelPressure, labelTemperature, labelTime, labelWind, tableLayout,
+          labelHumidity, labelPressure, labelTemperature, labelTime, labelWind, linearLayout,
           valueForecast, valueHumidity, valuePressure, valueTemperature, valueTime, valueWind);
     }
     String missingId = rootView.getResources().getResourceName(id);

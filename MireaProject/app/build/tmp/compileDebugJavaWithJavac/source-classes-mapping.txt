@@ -61,8 +61,8 @@ com/example/mireaproject/SensorsFragment.java
  com.example.mireaproject.SensorsFragment
 com/example/mireaproject/MainActivity.java
  com.example.mireaproject.MainActivity
-com/example/mireaproject/FileProvider.java
- com.example.mireaproject.FileProvider
+com/example/mireaproject/databinding/FragmentLoginBinding.java
+ com.example.mireaproject.databinding.FragmentLoginBinding
 com/example/mireaproject/MyService.java
  com.example.mireaproject.MyService
 com/example/mireaproject/databinding/FragmentRoomBinding.java
@@ -93,6 +93,7 @@ com/example/mireaproject/databinding/AppBarMainBinding.java
  com.example.mireaproject.databinding.AppBarMainBinding
 com/example/mireaproject/CameraFragment.java
  com.example.mireaproject.CameraFragment
+ com.example.mireaproject.CameraFragment$FileProvider
 com/example/mireaproject/databinding/ItemRecyclerContactBinding.java
  com.example.mireaproject.databinding.ItemRecyclerContactBinding
 com/example/mireaproject/databinding/FragmentInternetBinding.java
@@ -101,6 +102,5 @@ com/example/mireaproject/InternetFragment.java
  com.example.mireaproject.InternetFragment
  com.example.mireaproject.InternetFragment$1
  com.example.mireaproject.InternetFragment$2
+ com.example.mireaproject.InternetFragment$3
  com.example.mireaproject.InternetFragment$DownloadPageTask
-com/example/mireaproject/databinding/FragmentLoginBinding.java
- com.example.mireaproject.databinding.FragmentLoginBinding

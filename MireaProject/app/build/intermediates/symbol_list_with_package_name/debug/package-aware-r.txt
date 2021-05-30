@@ -2089,6 +2089,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id linearLayout2
 id linearLayout3
 id listMode
@@ -2274,7 +2275,6 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
-id tableLayout
 id tableLayout2
 id tableLayout3
 id tag_accessibility_actions
