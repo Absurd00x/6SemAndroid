@@ -9,6 +9,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.FragmentContainerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
@@ -18,7 +19,7 @@ import java.lang.String;
 
 public final class FragmentMapsBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final TextView areaDisplay;
@@ -27,19 +28,24 @@ public final class FragmentMapsBinding implements ViewBinding {
   public final Button buttonWipe;
 
   @NonNull
+  public final LinearLayout linearLayout3;
+
+  @NonNull
   public final FragmentContainerView map;
 
-  private FragmentMapsBinding(@NonNull LinearLayout rootView, @NonNull TextView areaDisplay,
-      @NonNull Button buttonWipe, @NonNull FragmentContainerView map) {
+  private FragmentMapsBinding(@NonNull ConstraintLayout rootView, @NonNull TextView areaDisplay,
+      @NonNull Button buttonWipe, @NonNull LinearLayout linearLayout3,
+      @NonNull FragmentContainerView map) {
     this.rootView = rootView;
     this.areaDisplay = areaDisplay;
     this.buttonWipe = buttonWipe;
+    this.linearLayout3 = linearLayout3;
     this.map = map;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -76,13 +82,20 @@ public final class FragmentMapsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.linearLayout3;
+      LinearLayout linearLayout3 = rootView.findViewById(id);
+      if (linearLayout3 == null) {
+        break missingId;
+      }
+
       id = R.id.map;
       FragmentContainerView map = rootView.findViewById(id);
       if (map == null) {
         break missingId;
       }
 
-      return new FragmentMapsBinding((LinearLayout) rootView, areaDisplay, buttonWipe, map);
+      return new FragmentMapsBinding((ConstraintLayout) rootView, areaDisplay, buttonWipe,
+          linearLayout3, map);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

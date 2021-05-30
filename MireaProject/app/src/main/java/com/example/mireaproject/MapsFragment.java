@@ -96,11 +96,12 @@ public class MapsFragment extends Fragment
         return cross < 0 || cross == 0 && dot <= 0;
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     private LatLng[] updateHull() {
-        Collections.sort(points, Comparator
-                .<Marker>comparingDouble(p -> p.getPosition().latitude)
-                .thenComparingDouble(p -> p.getPosition().longitude));
+        Collections.sort(points, ((Comparator<Marker>) (o1, o2) -> {
+            if (o1.getPosition().latitude != o1.getPosition().latitude)
+                return Double.compare((o1.getPosition().latitude), o2.getPosition().latitude);
+            return Double.compare(o1.getPosition().longitude, o2.getPosition().longitude);
+        }));
         int n = points.size();
         LatLng[] hull = new LatLng[n + 1];
         int cnt = 0;
@@ -113,7 +114,6 @@ public class MapsFragment extends Fragment
         return Arrays.copyOf(hull, cnt);
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     public void onMapClick(LatLng latLng) {
         points.add(gMap.addMarker(new MarkerOptions()

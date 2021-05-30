@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -17,7 +17,7 @@ import java.lang.String;
 
 public final class FragmentCameraBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button buttonPhoto;
@@ -25,7 +25,7 @@ public final class FragmentCameraBinding implements ViewBinding {
   @NonNull
   public final ImageView imageContainer;
 
-  private FragmentCameraBinding(@NonNull FrameLayout rootView, @NonNull Button buttonPhoto,
+  private FragmentCameraBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonPhoto,
       @NonNull ImageView imageContainer) {
     this.rootView = rootView;
     this.buttonPhoto = buttonPhoto;
@@ -34,7 +34,7 @@ public final class FragmentCameraBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -71,7 +71,7 @@ public final class FragmentCameraBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCameraBinding((FrameLayout) rootView, buttonPhoto, imageContainer);
+      return new FragmentCameraBinding((ConstraintLayout) rootView, buttonPhoto, imageContainer);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
@@ -18,7 +19,7 @@ import java.lang.String;
 
 public final class FragmentRoomBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button buttonInsert;
@@ -38,10 +39,13 @@ public final class FragmentRoomBinding implements ViewBinding {
   @NonNull
   public final EditText editPhone;
 
-  private FragmentRoomBinding(@NonNull LinearLayout rootView, @NonNull Button buttonInsert,
+  @NonNull
+  public final LinearLayout linearLayout2;
+
+  private FragmentRoomBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonInsert,
       @NonNull Button buttonRemove, @NonNull RecyclerView contactsRecyclerView,
-      @NonNull EditText editFirstName, @NonNull EditText editLastName,
-      @NonNull EditText editPhone) {
+      @NonNull EditText editFirstName, @NonNull EditText editLastName, @NonNull EditText editPhone,
+      @NonNull LinearLayout linearLayout2) {
     this.rootView = rootView;
     this.buttonInsert = buttonInsert;
     this.buttonRemove = buttonRemove;
@@ -49,11 +53,12 @@ public final class FragmentRoomBinding implements ViewBinding {
     this.editFirstName = editFirstName;
     this.editLastName = editLastName;
     this.editPhone = editPhone;
+    this.linearLayout2 = linearLayout2;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -114,8 +119,14 @@ public final class FragmentRoomBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRoomBinding((LinearLayout) rootView, buttonInsert, buttonRemove,
-          contactsRecyclerView, editFirstName, editLastName, editPhone);
+      id = R.id.linearLayout2;
+      LinearLayout linearLayout2 = rootView.findViewById(id);
+      if (linearLayout2 == null) {
+        break missingId;
+      }
+
+      return new FragmentRoomBinding((ConstraintLayout) rootView, buttonInsert, buttonRemove,
+          contactsRecyclerView, editFirstName, editLastName, editPhone, linearLayout2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

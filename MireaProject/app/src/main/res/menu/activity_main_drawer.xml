@@ -13,42 +13,40 @@
             android:onClick="onClick"
             android:title="@string/menu_calculator" />
         <item
-            android:id="@+id/nav_player"
-            android:onClick="onClick"
-            android:title="Player" />
-        <item
-            android:id="@+id/nav_sensors"
-            android:onClick="onClick"
-            android:title="Sensors" />
-        <item
             android:id="@+id/nav_camera"
             android:onClick="onClick"
             android:title="Camera" />
         <item
-            android:id="@+id/nav_recording"
+            android:id="@+id/nav_internet"
             android:onClick="onClick"
-            android:title="Recording" />
+            android:title="Internet" />
         <item
             android:id="@+id/nav_maps"
             android:onClick="onClick"
             android:title="Maps" />
         <item
-            android:id="@+id/nav_room"
+            android:id="@+id/nav_player"
             android:onClick="onClick"
-            android:title="Room" />
+            android:title="Player" />
         <item
             android:id="@+id/nav_preferences"
             android:onClick="onClick"
             android:title="Preferences" />
         <item
+            android:id="@+id/nav_recording"
+            android:onClick="onClick"
+            android:title="Recording" />
+        <item
+            android:id="@+id/nav_room"
+            android:onClick="onClick"
+            android:title="Room" />
+        <item
+            android:id="@+id/nav_sensors"
+            android:onClick="onClick"
+            android:title="Sensors" />
+        <item
             android:id="@+id/nav_stories"
             android:onClick="onClick"
             android:title="Stories" />
-
-        <item
-            android:id="@+id/nav_internet"
-            android:onClick="onClick"
-            android:title="Internet" />
-
     </group>
 </menu>

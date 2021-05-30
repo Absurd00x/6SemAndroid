@@ -102,6 +102,7 @@ public class CalculatorFragment extends Fragment {
         if (dividedByZero) {
             result = "";
             dividedByZero = false;
+            opPosition = NONE;
             updateDisplay();
         }
     }
@@ -191,6 +192,7 @@ public class CalculatorFragment extends Fragment {
             calcResult();
 
         opPosition = result.length();
+        Log.i("lol", String.valueOf(opPosition));
         char op = ((Button)v).getText().toString().charAt(0);
         result += op;
         updateDisplay();

@@ -261,13 +261,13 @@
 149        </service>
 150
 151        <activity
-151-->[com.google.android.gms:play-services-base:17.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+151-->[com.google.android.gms:play-services-base:17.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/e6ebcc1aa38d1fbf18302b33ac84119e/play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
 152            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-152-->[com.google.android.gms:play-services-base:17.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+152-->[com.google.android.gms:play-services-base:17.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/e6ebcc1aa38d1fbf18302b33ac84119e/play-services-base-17.5.0/AndroidManifest.xml:24:13-79
 153            android:exported="false"
-153-->[com.google.android.gms:play-services-base:17.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+153-->[com.google.android.gms:play-services-base:17.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/e6ebcc1aa38d1fbf18302b33ac84119e/play-services-base-17.5.0/AndroidManifest.xml:25:13-37
 154            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-154-->[com.google.android.gms:play-services-base:17.1.0] /home/user/.gradle/caches/transforms-2/files-2.1/538218237693c51a7f3aab01e8fb86e8/play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+154-->[com.google.android.gms:play-services-base:17.5.0] /home/user/.gradle/caches/transforms-2/files-2.1/e6ebcc1aa38d1fbf18302b33ac84119e/play-services-base-17.5.0/AndroidManifest.xml:26:13-72
 155
 156        <provider
 156-->[com.google.firebase:firebase-common:20.0.0] /home/user/.gradle/caches/transforms-2/files-2.1/ba99f0db75ff1152780be89a71df52d7/firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39

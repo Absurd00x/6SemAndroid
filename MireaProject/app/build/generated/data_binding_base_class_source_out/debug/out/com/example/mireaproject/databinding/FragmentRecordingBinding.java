@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -17,7 +17,7 @@ import java.lang.String;
 
 public final class FragmentRecordingBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button buttonEndRecording;
@@ -34,7 +34,7 @@ public final class FragmentRecordingBinding implements ViewBinding {
   @NonNull
   public final TextView dummyTextView;
 
-  private FragmentRecordingBinding(@NonNull FrameLayout rootView,
+  private FragmentRecordingBinding(@NonNull ConstraintLayout rootView,
       @NonNull Button buttonEndRecording, @NonNull Button buttonPlayRecording,
       @NonNull Button buttonStartRecording, @NonNull Button buttonStopRecording,
       @NonNull TextView dummyTextView) {
@@ -48,7 +48,7 @@ public final class FragmentRecordingBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -103,7 +103,7 @@ public final class FragmentRecordingBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentRecordingBinding((FrameLayout) rootView, buttonEndRecording,
+      return new FragmentRecordingBinding((ConstraintLayout) rootView, buttonEndRecording,
           buttonPlayRecording, buttonStartRecording, buttonStopRecording, dummyTextView);
     }
     String missingId = rootView.getResources().getResourceName(id);

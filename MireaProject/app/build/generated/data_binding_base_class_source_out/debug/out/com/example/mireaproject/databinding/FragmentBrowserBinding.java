@@ -5,9 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -16,19 +16,19 @@ import java.lang.String;
 
 public final class FragmentBrowserBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final WebView webView;
 
-  private FragmentBrowserBinding(@NonNull FrameLayout rootView, @NonNull WebView webView) {
+  private FragmentBrowserBinding(@NonNull ConstraintLayout rootView, @NonNull WebView webView) {
     this.rootView = rootView;
     this.webView = webView;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -59,7 +59,7 @@ public final class FragmentBrowserBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentBrowserBinding((FrameLayout) rootView, webView);
+      return new FragmentBrowserBinding((ConstraintLayout) rootView, webView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

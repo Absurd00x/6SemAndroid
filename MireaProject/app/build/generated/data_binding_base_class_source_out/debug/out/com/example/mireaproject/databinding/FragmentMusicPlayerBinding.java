@@ -5,10 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -17,7 +17,7 @@ import java.lang.String;
 
 public final class FragmentMusicPlayerBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button buttonFinish;
@@ -31,8 +31,9 @@ public final class FragmentMusicPlayerBinding implements ViewBinding {
   @NonNull
   public final TextView textView;
 
-  private FragmentMusicPlayerBinding(@NonNull FrameLayout rootView, @NonNull Button buttonFinish,
-      @NonNull Button buttonPlay, @NonNull Button buttonRestart, @NonNull TextView textView) {
+  private FragmentMusicPlayerBinding(@NonNull ConstraintLayout rootView,
+      @NonNull Button buttonFinish, @NonNull Button buttonPlay, @NonNull Button buttonRestart,
+      @NonNull TextView textView) {
     this.rootView = rootView;
     this.buttonFinish = buttonFinish;
     this.buttonPlay = buttonPlay;
@@ -42,7 +43,7 @@ public final class FragmentMusicPlayerBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -91,7 +92,7 @@ public final class FragmentMusicPlayerBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentMusicPlayerBinding((FrameLayout) rootView, buttonFinish, buttonPlay,
+      return new FragmentMusicPlayerBinding((ConstraintLayout) rootView, buttonFinish, buttonPlay,
           buttonRestart, textView);
     }
     String missingId = rootView.getResources().getResourceName(id);

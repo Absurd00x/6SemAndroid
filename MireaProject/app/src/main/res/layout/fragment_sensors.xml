@@ -1,181 +1,189 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SensorsFragment">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/title1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:text="Внешняя среда"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <Space
+    <TableLayout
+        android:id="@+id/tableLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title1">
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="152dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/title1"
+            <TextView
+                android:id="@+id/temperatureLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Температура: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/temperatureValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Внешняя среда"
-            android:textAlignment="center"
-            android:textSize="26sp" />
+            android:layout_height="match_parent">
 
-        <TableLayout
+            <TextView
+                android:id="@+id/pressureLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Давление: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/pressureValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="456"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:stretchColumns="0,1"
-            android:textAlignment="center">
+            android:layout_height="match_parent">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/humidityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Влажность: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/temperatureLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Температура: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
+            <TextView
+                android:id="@+id/humidityValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="789"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/temperatureValue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="123"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-            </TableRow>
+        </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+    </TableLayout>
 
-                <TextView
-                    android:id="@+id/pressureLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Давление: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
+    <Space
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout3" />
 
-                <TextView
-                    android:id="@+id/pressureValue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="456"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-            </TableRow>
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Гироскоп"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/space" />
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+    <TableLayout
+        android:id="@+id/tableLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title2">
 
-                <TextView
-                    android:id="@+id/humidityLabel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Влажность: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/humidityValue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="789"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-
-            </TableRow>
-
-        </TableLayout>
-
-        <Space
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/title2"
+            <TextView
+                android:id="@+id/labelX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="X: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valueX"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="987"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Гироскоп"
-            android:textAlignment="center"
-            android:textSize="26sp" />
+            android:layout_height="match_parent">
 
-        <TableLayout
+            <TextView
+                android:id="@+id/labelY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Y: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/valueY"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="654"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:stretchColumns="0,1">
+            android:layout_height="match_parent">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/labelZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Z: "
+                android:textAlignment="viewEnd"
+                android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/labelX"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="X: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
+            <TextView
+                android:id="@+id/valueZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="321"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+        </TableRow>
 
-                <TextView
-                    android:id="@+id/valueX"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="987"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-            </TableRow>
+    </TableLayout>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/labelY"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Y: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/valueY"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="654"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/labelZ"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Z: "
-                    android:textAlignment="viewEnd"
-                    android:textSize="20sp" />
-
-                <TextView
-                    android:id="@+id/valueZ"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="321"
-                    android:textAlignment="viewStart"
-                    android:textSize="20sp" />
-            </TableRow>
-
-        </TableLayout>
-
-    </LinearLayout>
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

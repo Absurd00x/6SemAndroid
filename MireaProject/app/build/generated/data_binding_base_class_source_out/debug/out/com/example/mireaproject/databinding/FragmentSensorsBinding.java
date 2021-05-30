@@ -4,10 +4,12 @@ package com.example.mireaproject.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Space;
+import android.widget.TableLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -16,7 +18,7 @@ import java.lang.String;
 
 public final class FragmentSensorsBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final TextView humidityLabel;
@@ -40,6 +42,15 @@ public final class FragmentSensorsBinding implements ViewBinding {
   public final TextView pressureValue;
 
   @NonNull
+  public final Space space;
+
+  @NonNull
+  public final TableLayout tableLayout2;
+
+  @NonNull
+  public final TableLayout tableLayout3;
+
+  @NonNull
   public final TextView temperatureLabel;
 
   @NonNull
@@ -60,12 +71,13 @@ public final class FragmentSensorsBinding implements ViewBinding {
   @NonNull
   public final TextView valueZ;
 
-  private FragmentSensorsBinding(@NonNull FrameLayout rootView, @NonNull TextView humidityLabel,
-      @NonNull TextView humidityValue, @NonNull TextView labelX, @NonNull TextView labelY,
-      @NonNull TextView labelZ, @NonNull TextView pressureLabel, @NonNull TextView pressureValue,
-      @NonNull TextView temperatureLabel, @NonNull TextView temperatureValue,
-      @NonNull TextView title1, @NonNull TextView title2, @NonNull TextView valueX,
-      @NonNull TextView valueY, @NonNull TextView valueZ) {
+  private FragmentSensorsBinding(@NonNull ConstraintLayout rootView,
+      @NonNull TextView humidityLabel, @NonNull TextView humidityValue, @NonNull TextView labelX,
+      @NonNull TextView labelY, @NonNull TextView labelZ, @NonNull TextView pressureLabel,
+      @NonNull TextView pressureValue, @NonNull Space space, @NonNull TableLayout tableLayout2,
+      @NonNull TableLayout tableLayout3, @NonNull TextView temperatureLabel,
+      @NonNull TextView temperatureValue, @NonNull TextView title1, @NonNull TextView title2,
+      @NonNull TextView valueX, @NonNull TextView valueY, @NonNull TextView valueZ) {
     this.rootView = rootView;
     this.humidityLabel = humidityLabel;
     this.humidityValue = humidityValue;
@@ -74,6 +86,9 @@ public final class FragmentSensorsBinding implements ViewBinding {
     this.labelZ = labelZ;
     this.pressureLabel = pressureLabel;
     this.pressureValue = pressureValue;
+    this.space = space;
+    this.tableLayout2 = tableLayout2;
+    this.tableLayout3 = tableLayout3;
     this.temperatureLabel = temperatureLabel;
     this.temperatureValue = temperatureValue;
     this.title1 = title1;
@@ -85,7 +100,7 @@ public final class FragmentSensorsBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -152,6 +167,24 @@ public final class FragmentSensorsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.space;
+      Space space = rootView.findViewById(id);
+      if (space == null) {
+        break missingId;
+      }
+
+      id = R.id.tableLayout2;
+      TableLayout tableLayout2 = rootView.findViewById(id);
+      if (tableLayout2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tableLayout3;
+      TableLayout tableLayout3 = rootView.findViewById(id);
+      if (tableLayout3 == null) {
+        break missingId;
+      }
+
       id = R.id.temperatureLabel;
       TextView temperatureLabel = rootView.findViewById(id);
       if (temperatureLabel == null) {
@@ -194,9 +227,9 @@ public final class FragmentSensorsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSensorsBinding((FrameLayout) rootView, humidityLabel, humidityValue,
-          labelX, labelY, labelZ, pressureLabel, pressureValue, temperatureLabel, temperatureValue,
-          title1, title2, valueX, valueY, valueZ);
+      return new FragmentSensorsBinding((ConstraintLayout) rootView, humidityLabel, humidityValue,
+          labelX, labelY, labelZ, pressureLabel, pressureValue, space, tableLayout2, tableLayout3,
+          temperatureLabel, temperatureValue, title1, title2, valueX, valueY, valueZ);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -5,18 +5,27 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.location.Criteria;
 import android.location.Location;
+import android.location.LocationListener;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
+import android.os.CancellationSignal;
+import android.os.Parcel;
 import android.preference.Preference;
+import android.provider.Settings;
+import android.renderscript.RenderScript;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,6 +34,20 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.common.api.GoogleApi;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.MapStyleOptions;
+import com.google.android.gms.tasks.CancellationToken;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnTokenCanceledListener;
+import com.google.android.gms.tasks.Task;
+
+import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -39,6 +62,7 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Executor;
 import java.util.prefs.Preferences;
 
 /**
@@ -46,7 +70,7 @@ import java.util.prefs.Preferences;
  * Use the {@link InternetFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class InternetFragment extends Fragment {
+public class InternetFragment extends Fragment implements LocationListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -70,10 +94,15 @@ public class InternetFragment extends Fragment {
     private final String URL = "https://api.openweathermap.org/data/2.5/forecast?";
     private final String APIKey = "39d8e4fc47b580660263e6047287d16d";
     private TextView[] values = new TextView[FIELDS];
+    private Location curLocation;
     private long lastCallTime;
 
     private final long tenMinutesInMillis = 10 * 60 * 1000;
 
+    @Override
+    public void onLocationChanged(@NonNull Location location) {
+        curLocation = location;
+    }
 
     public class DownloadPageTask extends AsyncTask<String, Void, String> {
         @Override
@@ -221,21 +250,34 @@ public class InternetFragment extends Fragment {
 
     private boolean checkPermissions() {
         if (ActivityCompat.checkSelfPermission(fa, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(fa, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            Toast.makeText(fa, "У приложения недостаточно прав\nдля определения геолокации", Toast.LENGTH_LONG).show();
+            Toast.makeText(fa, "У приложения недостаточно прав для определения геолокации", Toast.LENGTH_LONG).show();
             ActivityCompat.requestPermissions(fa, new String[] {Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_CODE);
             return false;
         }
         return true;
     }
 
-    private Location getUserLocation() {
-        LocationManager lm = (LocationManager) fa.getSystemService(Context.LOCATION_SERVICE);
-        @SuppressLint("MissingPermission")
-        Location location = lm.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-        if (location == null) {
-            Toast.makeText(fa, "Не получается определить местоположение", Toast.LENGTH_LONG).show();
-        }
-        return location;
+    @SuppressLint("MissingPermission")
+    private void postJob() {
+        FusedLocationProviderClient locationProviderClient = new FusedLocationProviderClient(fa);
+        locationProviderClient.getCurrentLocation(LocationRequest.PRIORITY_HIGH_ACCURACY, new CancellationToken() {
+            @Override
+            public boolean isCancellationRequested() {
+                return false;
+            }
+
+            @NonNull
+            @NotNull
+            @Override
+            public CancellationToken onCanceledRequested(@NonNull @NotNull OnTokenCanceledListener onTokenCanceledListener) {
+                return null;
+            }
+        }).addOnCompleteListener(new OnCompleteListener<Location>() {
+            @Override
+            public void onComplete(@NonNull @NotNull Task<Location> task) {
+                sendRequest(task.getResult());
+            }
+        });
     }
 
     private String getApiCallString(Location location) {
@@ -257,12 +299,11 @@ public class InternetFragment extends Fragment {
         return request.toString();
     }
 
-    private void sendRequest() {
-        if (!checkPermissions())
+    private void sendRequest(Location location) {
+        if (location == null) {
+            Toast.makeText(fa, "Не удалось получить геопозицию", Toast.LENGTH_SHORT).show();
             return;
-        Location location = getUserLocation();
-        if (location == null)
-            return;
+        }
         String request = getApiCallString(location);
 
         ConnectivityManager connectivityManager =
@@ -282,10 +323,12 @@ public class InternetFragment extends Fragment {
     private void onClick(View view) {
         long timePassed = (new Date()).getTime() - lastCallTime;
         if (timePassed > tenMinutesInMillis) {
-            sendRequest();
+            if (!checkPermissions())
+                return;
+            postJob();
         } else {
             Toast.makeText(getContext(),
-                    "Обновлять информацию можно не чаще,\nчем раз в 10 минут",
+                    "Обновлять информацию можно не чаще, чем раз в 10 минут",
                     Toast.LENGTH_LONG).show();
         }
     }

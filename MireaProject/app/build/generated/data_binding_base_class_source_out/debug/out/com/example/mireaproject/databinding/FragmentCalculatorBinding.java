@@ -5,11 +5,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.FrameLayout;
 import android.widget.TableLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import com.example.mireaproject.R;
 import java.lang.NullPointerException;
@@ -18,7 +18,7 @@ import java.lang.String;
 
 public final class FragmentCalculatorBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final Button button0;
@@ -77,7 +77,7 @@ public final class FragmentCalculatorBinding implements ViewBinding {
   @NonNull
   public final TextView resultDisplay;
 
-  private FragmentCalculatorBinding(@NonNull FrameLayout rootView, @NonNull Button button0,
+  private FragmentCalculatorBinding(@NonNull ConstraintLayout rootView, @NonNull Button button0,
       @NonNull Button button1, @NonNull Button button2, @NonNull Button button3,
       @NonNull Button button4, @NonNull Button button5, @NonNull Button button6,
       @NonNull Button button7, @NonNull Button button8, @NonNull Button button9,
@@ -108,7 +108,7 @@ public final class FragmentCalculatorBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -247,7 +247,7 @@ public final class FragmentCalculatorBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentCalculatorBinding((FrameLayout) rootView, button0, button1, button2,
+      return new FragmentCalculatorBinding((ConstraintLayout) rootView, button0, button1, button2,
           button3, button4, button5, button6, button7, button8, button9, buttonClear, buttonDelete,
           buttonDivide, buttonEquals, buttonGrid, buttonMinus, buttonMult, buttonPlus,
           resultDisplay);
