@@ -1,0 +1,5 @@
+com/example/httpurlconnection/BuildConfig.java
+ com.example.httpurlconnection.BuildConfig
+com/example/httpurlconnection/MainActivity.java
+ com.example.httpurlconnection.MainActivity
+ com.example.httpurlconnection.MainActivity$DownloadPageTask

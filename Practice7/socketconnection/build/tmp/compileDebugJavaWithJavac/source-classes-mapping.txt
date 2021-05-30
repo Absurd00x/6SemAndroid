@@ -1,0 +1,8 @@
+com/example/socketconnection/MainActivity.java
+ com.example.socketconnection.MainActivity
+ com.example.socketconnection.MainActivity$1
+ com.example.socketconnection.MainActivity$GetTimeTask
+com/example/socketconnection/SocketUtils.java
+ com.example.socketconnection.SocketUtils
+com/example/socketconnection/BuildConfig.java
+ com.example.socketconnection.BuildConfig
