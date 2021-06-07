@@ -1,6 +1,6 @@
-com/example/dialog/BuildConfig.java
- com.example.dialog.BuildConfig
-com/example/dialog/MainActivity.java
- com.example.dialog.MainActivity
-com/example/dialog/AlertDialogFragment.java
- com.example.dialog.AlertDialogFragment
+ru/mirea/petrov/dialog/BuildConfig.java
+ ru.mirea.petrov.dialog.BuildConfig
+ru/mirea/petrov/dialog/AlertDialogFragment.java
+ ru.mirea.petrov.dialog.AlertDialogFragment
+ru/mirea/petrov/dialog/MainActivity.java
+ ru.mirea.petrov.dialog.MainActivity

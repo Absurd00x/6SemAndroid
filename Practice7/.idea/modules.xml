@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Practice7.iml" filepath="$PROJECT_DIR$/.idea/modules/Practice7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Practice7.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Practice7.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/firebaseauth/Practice7.firebaseauth.iml" filepath="$PROJECT_DIR$/.idea/modules/firebaseauth/Practice7.firebaseauth.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/httpurlconnection/Practice7.httpurlconnection.iml" filepath="$PROJECT_DIR$/.idea/modules/httpurlconnection/Practice7.httpurlconnection.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/socketconnection/Practice7.socketconnection.iml" filepath="$PROJECT_DIR$/.idea/modules/socketconnection/Practice7.socketconnection.iml" />

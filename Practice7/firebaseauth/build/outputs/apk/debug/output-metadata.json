@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.firebaseauth",
+  "applicationId": "ru.mirea.petrov.firebaseauth",
   "variantName": "debug",
   "elements": [
     {

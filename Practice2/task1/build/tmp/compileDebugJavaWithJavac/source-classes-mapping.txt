@@ -1,4 +1,4 @@
-com/example/task1/BuildConfig.java
- com.example.task1.BuildConfig
-com/example/task1/MainActivity.java
- com.example.task1.MainActivity
+ru/mirea/petrov/task1/BuildConfig.java
+ ru.mirea.petrov.task1.BuildConfig
+ru/mirea/petrov/task1/MainActivity.java
+ ru.mirea.petrov.task1.MainActivity

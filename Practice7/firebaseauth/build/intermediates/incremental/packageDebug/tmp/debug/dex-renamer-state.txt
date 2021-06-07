@@ -1,9 +1,9 @@
-#Sat May 29 20:47:30 MSK 2021
-base.2=/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice7/firebaseauth/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+#Sun Jun 06 22:13:18 MSK 2021
+base.2=/home/user/Programming/Android/Practice7/firebaseauth/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
 path.2=12/classes.dex
-base.1=/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice7/firebaseauth/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.1=/home/user/Programming/Android/Practice7/firebaseauth/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 path.1=0/classes.dex
-base.0=/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice7/firebaseauth/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.0=/home/user/Programming/Android/Practice7/firebaseauth/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

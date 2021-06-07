@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.notebook",
+  "applicationId": "ru.mirea.petrov.notebook",
   "variantName": "debug",
   "elements": [
     {

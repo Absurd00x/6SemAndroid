@@ -1,6 +1,6 @@
-com/example/firebaseauth/MainActivity.java
- com.example.firebaseauth.MainActivity
- com.example.firebaseauth.MainActivity$1
- com.example.firebaseauth.MainActivity$2
-com/example/firebaseauth/BuildConfig.java
- com.example.firebaseauth.BuildConfig
+ru/mirea/petrov/firebaseauth/BuildConfig.java
+ ru.mirea.petrov.firebaseauth.BuildConfig
+ru/mirea/petrov/firebaseauth/MainActivity.java
+ ru.mirea.petrov.firebaseauth.MainActivity
+ ru.mirea.petrov.firebaseauth.MainActivity$1
+ ru.mirea.petrov.firebaseauth.MainActivity$2

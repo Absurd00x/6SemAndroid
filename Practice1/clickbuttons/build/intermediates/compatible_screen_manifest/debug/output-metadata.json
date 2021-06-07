@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.clickbuttons",
+  "applicationId": "ru.mirea.petrov.clickbuttons",
   "variantName": "debug",
   "elements": []
 }

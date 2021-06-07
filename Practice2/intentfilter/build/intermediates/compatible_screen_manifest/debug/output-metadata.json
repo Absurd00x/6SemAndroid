@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.intentfilter",
+  "applicationId": "ru.mirea.petrov.intentfilter",
   "variantName": "debug",
   "elements": []
 }

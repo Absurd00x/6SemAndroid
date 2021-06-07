@@ -1775,9 +1775,9 @@ int id beginning 0x7f080053
 int id blocking 0x7f080054
 int id bottom 0x7f080055
 int id bounce 0x7f080056
-int id buttonLoad 0x7f0801a9
-int id buttonPanel 0x7f080059
-int id buttonSave 0x7f0801aa
+int id buttonLoad 0x7f080057
+int id buttonPanel 0x7f080058
+int id buttonSave 0x7f080059
 int id cache_measures 0x7f08005a
 int id cancel_button 0x7f08005b
 int id center 0x7f08005c
@@ -1839,7 +1839,7 @@ int id dropdown_menu 0x7f080093
 int id easeIn 0x7f080094
 int id easeInOut 0x7f080095
 int id easeOut 0x7f080096
-int id editText 0x7f0801ab
+int id editText 0x7f080097
 int id edit_query 0x7f080098
 int id elastic 0x7f080099
 int id end 0x7f08009a

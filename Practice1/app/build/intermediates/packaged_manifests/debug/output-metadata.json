@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.practice1",
+  "applicationId": "ru.mirea.petrov.practice1",
   "variantName": "debug",
   "elements": [
     {

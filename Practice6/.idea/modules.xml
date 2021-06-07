@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Practice6.iml" filepath="$PROJECT_DIR$/.idea/modules/Practice6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Practice6.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Practice6.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/internalfilestorage/Practice6.internalfilestorage.iml" filepath="$PROJECT_DIR$/.idea/modules/internalfilestorage/Practice6.internalfilestorage.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/notebook/Practice6.notebook.iml" filepath="$PROJECT_DIR$/.idea/modules/notebook/Practice6.notebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/preferences/Practice6.preferences.iml" filepath="$PROJECT_DIR$/.idea/modules/preferences/Practice6.preferences.iml" />

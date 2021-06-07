@@ -1,4 +1,5 @@
-com/example/clickbuttons/BuildConfig.java
- com.example.clickbuttons.BuildConfig
-com/example/clickbuttons/MainActivity.java
- com.example.clickbuttons.MainActivity
+ru/mirea/petrov/clickbuttons/BuildConfig.java
+ ru.mirea.petrov.clickbuttons.BuildConfig
+ru/mirea/petrov/clickbuttons/MainActivity.java
+ ru.mirea.petrov.clickbuttons.MainActivity
+ ru.mirea.petrov.clickbuttons.MainActivity$1

@@ -1,8 +1,8 @@
-com/example/simplefragmentapp2/MainActivity.java
- com.example.simplefragmentapp2.MainActivity
-com/example/simplefragmentapp2/BuildConfig.java
- com.example.simplefragmentapp2.BuildConfig
-com/example/simplefragmentapp2/Fragment2.java
- com.example.simplefragmentapp2.Fragment2
-com/example/simplefragmentapp2/Fragment1.java
- com.example.simplefragmentapp2.Fragment1
+ru/mirea/petrov/simplefragmentapp2/MainActivity.java
+ ru.mirea.petrov.simplefragmentapp2.MainActivity
+ru/mirea/petrov/simplefragmentapp2/BuildConfig.java
+ ru.mirea.petrov.simplefragmentapp2.BuildConfig
+ru/mirea/petrov/simplefragmentapp2/Fragment2.java
+ ru.mirea.petrov.simplefragmentapp2.Fragment2
+ru/mirea/petrov/simplefragmentapp2/Fragment1.java
+ ru.mirea.petrov.simplefragmentapp2.Fragment1

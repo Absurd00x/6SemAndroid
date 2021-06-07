@@ -1,4 +1,4 @@
-com/example/systemintentsapp/BuildConfig.java
- com.example.systemintentsapp.BuildConfig
-com/example/systemintentsapp/MainActivity.java
- com.example.systemintentsapp.MainActivity
+ru/mirea/petrov/systemintentsapp/MainActivity.java
+ ru.mirea.petrov.systemintentsapp.MainActivity
+ru/mirea/petrov/systemintentsapp/BuildConfig.java
+ ru.mirea.petrov.systemintentsapp.BuildConfig

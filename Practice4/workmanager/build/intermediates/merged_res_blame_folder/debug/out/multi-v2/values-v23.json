@@ -1,18 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice4/workmanager/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/home/user/Programming/Android/Practice4/workmanager/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
-                {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/a31dafffc8854d18a8b5ebf893f5310a/work-runtime-2.5.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/2139d73c5146b0d9ccfa1f5b382f03a7/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
@@ -30,6 +20,16 @@
                         "endLines": "54",
                         "endColumns": "12",
                         "endOffsets": "3798"
+                    }
+                },
+                {
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/b2455742a82c1a65d7e29be18a35173a/work-runtime-2.6.0-beta01/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
                     }
                 },
                 {

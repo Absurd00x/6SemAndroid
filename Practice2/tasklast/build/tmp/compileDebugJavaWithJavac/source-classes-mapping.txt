@@ -1,10 +1,10 @@
-com/example/tasklast/MyProgressDialogFragment.java
- com.example.tasklast.MyProgressDialogFragment
-com/example/tasklast/BuildConfig.java
- com.example.tasklast.BuildConfig
-com/example/tasklast/MainActivity.java
- com.example.tasklast.MainActivity
-com/example/tasklast/MyDateDialogFragment.java
- com.example.tasklast.MyDateDialogFragment
-com/example/tasklast/MyTimeDialogFragment.java
- com.example.tasklast.MyTimeDialogFragment
+ru/mirea/petrov/tasklast/MyDateDialogFragment.java
+ ru.mirea.petrov.tasklast.MyDateDialogFragment
+ru/mirea/petrov/tasklast/MyTimeDialogFragment.java
+ ru.mirea.petrov.tasklast.MyTimeDialogFragment
+ru/mirea/petrov/tasklast/BuildConfig.java
+ ru.mirea.petrov.tasklast.BuildConfig
+ru/mirea/petrov/tasklast/MainActivity.java
+ ru.mirea.petrov.tasklast.MainActivity
+ru/mirea/petrov/tasklast/MyProgressDialogFragment.java
+ ru.mirea.petrov.tasklast.MyProgressDialogFragment

@@ -1,4 +1,4 @@
-com/example/preferences/MainActivity.java
- com.example.preferences.MainActivity
-com/example/preferences/BuildConfig.java
- com.example.preferences.BuildConfig
+ru/mirea/petrov/preferences/BuildConfig.java
+ ru.mirea.petrov.preferences.BuildConfig
+ru/mirea/petrov/preferences/MainActivity.java
+ ru.mirea.petrov.preferences.MainActivity

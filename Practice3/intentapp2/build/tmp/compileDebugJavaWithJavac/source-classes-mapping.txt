@@ -1,6 +1,6 @@
-com/example/intentapp2/BuildConfig.java
- com.example.intentapp2.BuildConfig
-com/example/intentapp2/Second_Activity.java
- com.example.intentapp2.Second_Activity
-com/example/intentapp2/MainActivity.java
- com.example.intentapp2.MainActivity
+ru/mirea/petrov/intentapp2/Second_Activity.java
+ ru.mirea.petrov.intentapp2.Second_Activity
+ru/mirea/petrov/intentapp2/MainActivity.java
+ ru.mirea.petrov.intentapp2.MainActivity
+ru/mirea/petrov/intentapp2/BuildConfig.java
+ ru.mirea.petrov.intentapp2.BuildConfig

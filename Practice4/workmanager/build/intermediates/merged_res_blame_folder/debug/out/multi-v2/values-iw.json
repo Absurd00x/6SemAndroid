@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice4/workmanager/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
+            "outputFile": "/home/user/Programming/Android/Practice4/workmanager/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/2730d74d200c17936a122ce975a9aa70/material-1.3.0/res/values-iw/values-iw.xml",

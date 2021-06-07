@@ -1,4 +1,4 @@
-com/example/notificationapp/BuildConfig.java
- com.example.notificationapp.BuildConfig
-com/example/notificationapp/MainActivity.java
- com.example.notificationapp.MainActivity
+ru/mirea/petrov/notificationapp/BuildConfig.java
+ ru.mirea.petrov.notificationapp.BuildConfig
+ru/mirea/petrov/notificationapp/MainActivity.java
+ ru.mirea.petrov.notificationapp.MainActivity

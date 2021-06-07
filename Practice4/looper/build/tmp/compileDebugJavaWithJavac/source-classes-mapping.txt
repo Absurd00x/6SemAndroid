@@ -1,7 +1,7 @@
-com/example/looper/BuildConfig.java
- com.example.looper.BuildConfig
-com/example/looper/MainActivity.java
- com.example.looper.MainActivity
-com/example/looper/MyLooper.java
- com.example.looper.MyLooper
- com.example.looper.MyLooper$1
+ru/mirea/petrov/looper/MyLooper.java
+ ru.mirea.petrov.looper.MyLooper
+ ru.mirea.petrov.looper.MyLooper$1
+ru/mirea/petrov/looper/MainActivity.java
+ ru.mirea.petrov.looper.MainActivity
+ru/mirea/petrov/looper/BuildConfig.java
+ ru.mirea.petrov.looper.BuildConfig

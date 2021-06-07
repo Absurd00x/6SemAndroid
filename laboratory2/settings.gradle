@@ -1,0 +1,5 @@
+rootProject.name = "laboratory2"
+include ':livedata'
+include ':networkstate'
+include ':viewmodel'
+include ':lifecycle'

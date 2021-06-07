@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice5/camera/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/user/Programming/Android/Practice5/camera/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f05760a6ab320001c8b604d10d78ac7b/constraintlayout-2.0.4/res/values/values.xml",
@@ -59,6 +59,23 @@
                     }
                 },
                 {
+                    "source": "/home/user/Programming/Android/Practice5/camera/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "43",
+                        "endOffsets": "55"
+                    },
+                    "to": {
+                        "startLines": "1055",
+                        "startColumns": "4",
+                        "startOffsets": "61756",
+                        "endColumns": "43",
+                        "endOffsets": "61795"
+                    }
+                },
+                {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/21b3d769fdb43271e60829527c256d88/transition-1.2.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -76,7 +93,7 @@
                     }
                 },
                 {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice5/camera/src/main/res/values/colors.xml",
+                    "source": "/home/user/Programming/Android/Practice5/camera/src/main/res/values/colors.xml",
                     "from": {
                         "startLines": "7,2,3,4,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -131,20 +148,22 @@
                     }
                 },
                 {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice5/camera/src/main/res/values/strings.xml",
+                    "source": "/home/user/Programming/Android/Practice5/camera/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "1",
+                        "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "43",
-                        "endOffsets": "55"
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
                     },
                     "to": {
-                        "startLines": "1055",
+                        "startLines": "3783",
                         "startColumns": "4",
-                        "startOffsets": "61756",
-                        "endColumns": "43",
-                        "endOffsets": "61795"
+                        "startOffsets": "251180",
+                        "endLines": "3795",
+                        "endColumns": "12",
+                        "endOffsets": "251896"
                     }
                 },
                 {
@@ -181,25 +200,6 @@
                         "endLines": "5034,5041,5052,7452,7457",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "331888,332273,332870,480191,480461"
-                    }
-                },
-                {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice5/camera/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
-                    },
-                    "to": {
-                        "startLines": "3783",
-                        "startColumns": "4",
-                        "startOffsets": "251180",
-                        "endLines": "3795",
-                        "endColumns": "12",
-                        "endOffsets": "251896"
                     }
                 },
                 {

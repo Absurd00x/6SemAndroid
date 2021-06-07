@@ -1,12 +1,12 @@
-com/example/room/Employee.java
- com.example.room.Employee
-com/example/room/EmployeeDao.java
- com.example.room.EmployeeDao
-com/example/room/AppDatabase.java
- com.example.room.AppDatabase
-com/example/room/MainActivity.java
- com.example.room.MainActivity
-com/example/room/App.java
- com.example.room.App
-com/example/room/BuildConfig.java
- com.example.room.BuildConfig
+ru/mirea/petrov/room/App.java
+ ru.mirea.petrov.room.App
+ru/mirea/petrov/room/EmployeeDao.java
+ ru.mirea.petrov.room.EmployeeDao
+ru/mirea/petrov/room/Employee.java
+ ru.mirea.petrov.room.Employee
+ru/mirea/petrov/room/AppDatabase.java
+ ru.mirea.petrov.room.AppDatabase
+ru/mirea/petrov/room/BuildConfig.java
+ ru.mirea.petrov.room.BuildConfig
+ru/mirea/petrov/room/MainActivity.java
+ ru.mirea.petrov.room.MainActivity

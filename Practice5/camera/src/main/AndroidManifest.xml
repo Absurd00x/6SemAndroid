@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.camera">
+    package="ru.mirea.petrov.camera">
+
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -13,7 +14,7 @@
         android:theme="@style/Theme.Practice5">
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.camera.FileProvider"
+            android:authorities="ru.mirea.petrov.camera.FileProvider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data

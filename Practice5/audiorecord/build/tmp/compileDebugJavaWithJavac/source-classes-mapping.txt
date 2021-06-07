@@ -1,4 +1,4 @@
-com/example/audiorecord/BuildConfig.java
- com.example.audiorecord.BuildConfig
-com/example/audiorecord/MainActivity.java
- com.example.audiorecord.MainActivity
+ru/mirea/petrov/audiorecord/MainActivity.java
+ ru.mirea.petrov.audiorecord.MainActivity
+ru/mirea/petrov/audiorecord/BuildConfig.java
+ ru.mirea.petrov.audiorecord.BuildConfig

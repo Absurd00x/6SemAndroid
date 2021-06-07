@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "338533933394",
-    "project_id": "mireaproject-477b6",
-    "storage_bucket": "mireaproject-477b6.appspot.com"
+    "project_number": "259897519343",
+    "project_id": "mireaproject-1c766",
+    "storage_bucket": "mireaproject-1c766.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:338533933394:android:86d79bb572d925025a9a8b",
+        "mobilesdk_app_id": "1:259897519343:android:7254c26b27c6084345bf1a",
         "android_client_info": {
-          "package_name": "com.example.mireaproject"
+          "package_name": "ru.mirea.petrov.mireaproject"
         }
       },
       "oauth_client": [
         {
-          "client_id": "338533933394-2t5hd941m4f1pj5s0m6fpjen0o67h7us.apps.googleusercontent.com",
+          "client_id": "259897519343-g38hsi5loocggninv8e08v1bl029hbjv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAH0b30FmtuxP7iZUB__hYUbQ0CYRyfeGc"
+          "current_key": "AIzaSyCp95ZNAYyS8FPJMZGV2g8p_183mhNZwIM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "338533933394-2t5hd941m4f1pj5s0m6fpjen0o67h7us.apps.googleusercontent.com",
+              "client_id": "259897519343-g38hsi5loocggninv8e08v1bl029hbjv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

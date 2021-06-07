@@ -1,4 +1,6 @@
-com/example/notebook/BuildConfig.java
- com.example.notebook.BuildConfig
-com/example/notebook/MainActivity.java
- com.example.notebook.MainActivity
+ru/mirea/petrov/notebook/MainActivity.java
+ ru.mirea.petrov.notebook.MainActivity
+ru/mirea/petrov/notebook/App.java
+ ru.mirea.petrov.notebook.App
+ru/mirea/petrov/notebook/BuildConfig.java
+ ru.mirea.petrov.notebook.BuildConfig

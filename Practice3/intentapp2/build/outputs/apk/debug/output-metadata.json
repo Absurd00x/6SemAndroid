@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.intentapp2",
+  "applicationId": "ru.mirea.petrov.intentapp2",
   "variantName": "debug",
   "elements": [
     {

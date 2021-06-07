@@ -34,9 +34,9 @@
       <sourceFolder url="file://$MODULE_DIR$/../../../camera/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../camera/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../camera/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../camera/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../camera/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../camera/build/generated/res/resValues/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../camera/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../camera/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../camera/build" />
     </content>

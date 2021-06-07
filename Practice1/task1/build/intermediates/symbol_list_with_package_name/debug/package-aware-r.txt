@@ -1,4 +1,4 @@
-com.example.task1
+ru.mirea.petrov.task1
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1784,6 +1784,7 @@ id button13
 id button14
 id button15
 id button16
+id button17
 id button2
 id button3
 id button4

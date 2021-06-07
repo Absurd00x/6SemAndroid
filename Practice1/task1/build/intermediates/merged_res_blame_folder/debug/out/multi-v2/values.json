@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/AndroidStudioProjects/Practice1/task1/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/user/Programming/Android/Practice1/task1/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f05760a6ab320001c8b604d10d78ac7b/constraintlayout-2.0.4/res/values/values.xml",
@@ -73,59 +73,6 @@
                         "startOffsets": "55233,55273,55967,56149,56204,57700,57754,57806,57855,57916",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "55268,55315,56005,56199,56246,57749,57801,57850,57911,57961"
-                    }
-                },
-                {
-                    "source": "/home/user/AndroidStudioProjects/Practice1/task1/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
-                    },
-                    "to": {
-                        "startLines": "3783",
-                        "startColumns": "4",
-                        "startOffsets": "251179",
-                        "endLines": "3795",
-                        "endColumns": "12",
-                        "endOffsets": "251895"
-                    }
-                },
-                {
-                    "source": "/home/user/AndroidStudioProjects/Practice1/task1/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "402,490,491,492,503,504,507",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
-                    }
-                },
-                {
-                    "source": "/home/user/AndroidStudioProjects/Practice1/task1/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "42",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "1055",
-                        "startColumns": "4",
-                        "startOffsets": "61756",
-                        "endColumns": "42",
-                        "endOffsets": "61794"
                     }
                 },
                 {
@@ -296,6 +243,25 @@
                     }
                 },
                 {
+                    "source": "/home/user/Programming/Android/Practice1/task1/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "3783",
+                        "startColumns": "4",
+                        "startOffsets": "251179",
+                        "endLines": "3795",
+                        "endColumns": "12",
+                        "endOffsets": "251895"
+                    }
+                },
+                {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/2139d73c5146b0d9ccfa1f5b382f03a7/cardview-1.0.0/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,35,36,37,38,45,47,50,7",
@@ -312,6 +278,40 @@
                         "endLines": "24,411,412,413,414,591,592,593,1171,3050,3053,3056,5930",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1181,20221,20283,20345,20409,32181,32238,32292,76163,199538,199664,199792,380540"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice1/task1/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "42",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "1055",
+                        "startColumns": "4",
+                        "startOffsets": "61756",
+                        "endColumns": "42",
+                        "endOffsets": "61794"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice1/task1/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "402,490,491,492,503,504,507",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
                     }
                 }
             ]

@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.accelerometer",
+  "applicationId": "ru.mirea.petrov.accelerometer",
   "variantName": "debug",
   "elements": [
     {

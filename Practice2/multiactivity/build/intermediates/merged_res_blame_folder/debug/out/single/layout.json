@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_second.xml",
-        "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/layout/content_second.xml"
+        "merged": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/content_second.xml",
+        "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/layout/content_second.xml"
     },
     {
-        "merged": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
-        "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/layout/activity_main.xml"
+        "merged": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
+        "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/layout/fragment_first.xml"
     },
     {
-        "merged": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_second.xml",
-        "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/layout/activity_second.xml"
+        "merged": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
+        "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/layout/fragment_second.xml"
     },
     {
-        "merged": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_first.xml",
-        "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/layout/fragment_first.xml"
+        "merged": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_second.xml",
+        "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/layout/activity_second.xml"
     },
     {
-        "merged": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_second.xml",
-        "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/layout/fragment_second.xml"
+        "merged": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/layout/activity_main.xml"
     }
 ]

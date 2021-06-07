@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/07adfc08fe16d3453ab9291511ec05fe/core-1.5.0/res/values-en-rAU/values-en-rAU.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/65e0bfe048ce53689d09cc3413054d80/navigation-ui-2.3.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/68198ebcb2b6bd749eec9f9577ee98d7/navigation-ui-2.3.5/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

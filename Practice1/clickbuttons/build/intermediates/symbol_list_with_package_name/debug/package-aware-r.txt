@@ -1,4 +1,4 @@
-com.example.clickbuttons
+ru.mirea.petrov.clickbuttons
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1693,11 +1693,9 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
-id Cancel
 id FUNCTION
 id META
 id NO_DEBUG
-id OK
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1778,6 +1776,8 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCancel
+id btnOk
 id buttonPanel
 id cache_measures
 id cancel_button
@@ -2071,7 +2071,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2097,6 +2096,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvOut
 id unchecked
 id uniform
 id unlabeled

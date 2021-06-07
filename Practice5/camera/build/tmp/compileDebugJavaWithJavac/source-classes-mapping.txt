@@ -1,6 +1,6 @@
-com/example/camera/BuildConfig.java
- com.example.camera.BuildConfig
-com/example/camera/FileProvider.java
- com.example.camera.FileProvider
-com/example/camera/MainActivity.java
- com.example.camera.MainActivity
+ru/mirea/petrov/camera/BuildConfig.java
+ ru.mirea.petrov.camera.BuildConfig
+ru/mirea/petrov/camera/MainActivity.java
+ ru.mirea.petrov.camera.MainActivity
+ru/mirea/petrov/camera/FileProvider.java
+ ru.mirea.petrov.camera.FileProvider

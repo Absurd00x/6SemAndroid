@@ -9,7 +9,7 @@
         android:targetSdkVersion="30" />
 
     <application
-        android:name="com.example.room.App"
+        android:name="ru.mirea.petrov.room.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -19,7 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Practice6" >
-        <activity android:name="com.example.room.MainActivity" >
+        <activity android:name="ru.mirea.petrov.room.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

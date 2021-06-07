@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.camera",
+  "applicationId": "ru.mirea.petrov.camera",
   "variantName": "debug",
   "elements": [
     {

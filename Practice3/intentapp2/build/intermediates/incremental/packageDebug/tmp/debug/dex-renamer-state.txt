@@ -1,4 +1,10 @@
-#Sat May 22 13:08:46 MSK 2021
-base.0=/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice3/intentapp2/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Sun Jun 06 21:03:43 MSK 2021
+base.2=/home/user/Programming/Android/Practice3/intentapp2/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
+path.2=2/classes.dex
+base.1=/home/user/Programming/Android/Practice3/intentapp2/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.1=0/classes.dex
+base.0=/home/user/Programming/Android/Practice3/intentapp2/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
 path.0=classes.dex

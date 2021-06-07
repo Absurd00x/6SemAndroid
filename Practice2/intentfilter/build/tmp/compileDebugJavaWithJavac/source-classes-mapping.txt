@@ -1,4 +1,4 @@
-com/example/intentfilter/BuildConfig.java
- com.example.intentfilter.BuildConfig
-com/example/intentfilter/MainActivity.java
- com.example.intentfilter.MainActivity
+ru/mirea/petrov/intentfilter/MainActivity.java
+ ru.mirea.petrov.intentfilter.MainActivity
+ru/mirea/petrov/intentfilter/BuildConfig.java
+ ru.mirea.petrov.intentfilter.BuildConfig

@@ -7,67 +7,67 @@
 
     <fragment
         android:id="@+id/nav_browser"
-        android:name="com.example.mireaproject.BrowserFragment"
+        android:name="ru.mirea.petrov.mireaproject.BrowserFragment"
         tools:layout="@layout/fragment_browser" />
     <fragment
         android:id="@+id/nav_calculator"
-        android:name="com.example.mireaproject.CalculatorFragment"
+        android:name="ru.mirea.petrov.mireaproject.CalculatorFragment"
         tools:layout="@layout/fragment_calculator" />
 
     <fragment
         android:id="@+id/nav_player"
-        android:name="com.example.mireaproject.MusicPlayerFragment"
+        android:name="ru.mirea.petrov.mireaproject.MusicPlayerFragment"
         tools:layout="@layout/fragment_music_player" />
 
     <fragment
         android:id="@+id/nav_camera"
-        android:name="com.example.mireaproject.CameraFragment"
+        android:name="ru.mirea.petrov.mireaproject.CameraFragment"
         tools:layout="@layout/fragment_camera" />
 
     <fragment
         android:id="@+id/nav_recording"
-        android:name="com.example.mireaproject.RecordingFragment"
+        android:name="ru.mirea.petrov.mireaproject.RecordingFragment"
         tools:layout="@layout/fragment_recording" />
 
     <fragment
         android:id="@+id/nav_sensors"
-        android:name="com.example.mireaproject.SensorsFragment"
+        android:name="ru.mirea.petrov.mireaproject.SensorsFragment"
         tools:layout="@layout/fragment_sensors" />
 
     <fragment
         android:id="@+id/nav_maps"
-        android:name="com.example.mireaproject.MapsFragment"
+        android:name="ru.mirea.petrov.mireaproject.MapsFragment"
         tools:layout="@layout/fragment_maps" />
 
     <fragment
         android:id="@+id/nav_room"
-        android:name="com.example.mireaproject.RoomFragment"
+        android:name="ru.mirea.petrov.mireaproject.RoomFragment"
         tools:layout="@layout/fragment_room" />
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.mireaproject.ui.home.HomeFragment"
+        android:name="ru.mirea.petrov.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_preferences"
-        android:name="com.example.mireaproject.PreferencesFragment"
+        android:name="ru.mirea.petrov.mireaproject.PreferencesFragment"
         tools:layout="@layout/fragment_preferences" />
 
     <fragment
         android:id="@+id/nav_stories"
-        android:name="com.example.mireaproject.StoriesFragment"
+        android:name="ru.mirea.petrov.mireaproject.StoriesFragment"
         tools:layout="@layout/fragment_stories" />
 
     <fragment
         android:id="@+id/nav_login"
-        android:name="com.example.mireaproject.LoginFragment"
+        android:name="ru.mirea.petrov.mireaproject.LoginFragment"
         tools:layout="@layout/fragment_login" />
 
     <fragment
         android:id="@+id/nav_internet"
-        android:name="com.example.mireaproject.InternetFragment"
+        android:name="ru.mirea.petrov.mireaproject.InternetFragment"
         tools:layout="@layout/fragment_internet" />
 
 </navigation>

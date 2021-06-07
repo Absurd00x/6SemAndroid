@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.camera",
+  "applicationId": "ru.mirea.petrov.camera",
   "variantName": "debug",
   "elements": []
 }

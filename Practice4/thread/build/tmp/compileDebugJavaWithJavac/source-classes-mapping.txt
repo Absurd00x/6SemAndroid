@@ -1,4 +1,4 @@
-com/example/thread/BuildConfig.java
- com.example.thread.BuildConfig
-com/example/thread/MainActivity.java
- com.example.thread.MainActivity
+ru/mirea/petrov/thread/MainActivity.java
+ ru.mirea.petrov.thread.MainActivity
+ru/mirea/petrov/thread/BuildConfig.java
+ ru.mirea.petrov.thread.BuildConfig

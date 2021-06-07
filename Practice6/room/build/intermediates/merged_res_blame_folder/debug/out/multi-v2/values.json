@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice6/room/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/user/Programming/Android/Practice6/room/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f05760a6ab320001c8b604d10d78ac7b/constraintlayout-2.0.4/res/values/values.xml",
@@ -76,23 +76,6 @@
                     }
                 },
                 {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice6/room/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "402,490,491,492,503,504,507",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
-                    }
-                },
-                {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/2163979b6567cda52ae0ebf1a205491d/fragment-1.3.4/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -128,6 +111,59 @@
                         "endLines": "8069",
                         "endColumns": "24",
                         "endOffsets": "515753"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice6/room/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
+                    },
+                    "to": {
+                        "startLines": "402,490,491,492,503,504,507",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice6/room/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "3783",
+                        "startColumns": "4",
+                        "startOffsets": "251178",
+                        "endLines": "3795",
+                        "endColumns": "12",
+                        "endOffsets": "251894"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice6/room/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
+                    },
+                    "to": {
+                        "startLines": "1055",
+                        "startColumns": "4",
+                        "startOffsets": "61756",
+                        "endColumns": "41",
+                        "endOffsets": "61793"
                     }
                 },
                 {
@@ -224,25 +260,6 @@
                     }
                 },
                 {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice6/room/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
-                    },
-                    "to": {
-                        "startLines": "3783",
-                        "startColumns": "4",
-                        "startOffsets": "251178",
-                        "endLines": "3795",
-                        "endColumns": "12",
-                        "endOffsets": "251894"
-                    }
-                },
-                {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f6de2a670d04d6e6d777da00f7299d4c/lifecycle-viewmodel-2.3.1/res/values/values.xml",
                     "from": {
                         "startLines": "2",
@@ -257,23 +274,6 @@
                         "startOffsets": "58143",
                         "endColumns": "49",
                         "endOffsets": "58188"
-                    }
-                },
-                {
-                    "source": "/home/user/Programming/6 sem Android/AndroidStudioProjects/Practice6/room/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "1055",
-                        "startColumns": "4",
-                        "startOffsets": "61756",
-                        "endColumns": "41",
-                        "endOffsets": "61793"
                     }
                 },
                 {

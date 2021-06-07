@@ -1,4 +1,4 @@
-com/example/share/MainActivity.java
- com.example.share.MainActivity
-com/example/share/BuildConfig.java
- com.example.share.BuildConfig
+ru/mirea/petrov/share/BuildConfig.java
+ ru.mirea.petrov.share.BuildConfig
+ru/mirea/petrov/share/MainActivity.java
+ ru.mirea.petrov.share.MainActivity

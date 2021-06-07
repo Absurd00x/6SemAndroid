@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.loadermanager",
+  "applicationId": "ru.mirea.petrov.loadermanager",
   "variantName": "debug",
   "elements": [
     {

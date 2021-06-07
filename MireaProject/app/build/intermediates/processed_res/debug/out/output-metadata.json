@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.mireaproject",
+  "applicationId": "ru.mirea.petrov.mireaproject",
   "variantName": "debug",
   "elements": [
     {

@@ -1,4 +1,4 @@
-com/example/accelerometer/BuildConfig.java
- com.example.accelerometer.BuildConfig
-com/example/accelerometer/MainActivity.java
- com.example.accelerometer.MainActivity
+ru/mirea/petrov/accelerometer/BuildConfig.java
+ ru.mirea.petrov.accelerometer.BuildConfig
+ru/mirea/petrov/accelerometer/MainActivity.java
+ ru.mirea.petrov.accelerometer.MainActivity

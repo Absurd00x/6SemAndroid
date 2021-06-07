@@ -1,4 +1,2 @@
-com/example/practice5/BuildConfig.java
- com.example.practice5.BuildConfig
-com/example/practice5/MainActivity.java
- com.example.practice5.MainActivity
+ru/mirea/petrov/practice5/BuildConfig.java
+ ru.mirea.petrov.practice5.BuildConfig

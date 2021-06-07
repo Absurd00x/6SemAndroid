@@ -4,7 +4,7 @@
     "type": "PROCESSED_RES",
     "kind": "Directory"
   },
-  "applicationId": "com.example.accelerometer",
+  "applicationId": "ru.mirea.petrov.accelerometer",
   "variantName": "debug",
   "elements": [
     {

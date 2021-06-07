@@ -1,6 +1,6 @@
 rootProject.name = "Practice1"
 include ':app'
+include ':clickbuttons'
 include ':task1'
 include ':task2'
 include ':task3'
-include ':clickbuttons'

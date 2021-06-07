@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.task3",
+  "applicationId": "ru.mirea.petrov.task3",
   "variantName": "debug",
   "elements": []
 }

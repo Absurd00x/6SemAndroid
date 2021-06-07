@@ -4,7 +4,7 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.workmanager",
+  "applicationId": "ru.mirea.petrov.workmanager",
   "variantName": "debug",
   "elements": [
     {

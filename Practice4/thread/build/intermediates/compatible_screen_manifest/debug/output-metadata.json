@@ -4,7 +4,7 @@
     "type": "COMPATIBLE_SCREEN_MANIFEST",
     "kind": "Directory"
   },
-  "applicationId": "com.example.thread",
+  "applicationId": "ru.mirea.petrov.thread",
   "variantName": "debug",
   "elements": []
 }

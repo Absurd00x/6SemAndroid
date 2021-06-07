@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.example.practice5",
+  "applicationId": "ru.mirea.petrov.practice5",
   "variantName": "debug",
   "elements": [
     {

@@ -33,6 +33,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806927549173:android:bf88fba92aad91a9df3bbc",
+        "android_client_info": {
+          "package_name": "ru.mirea.petrov.firebaseauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806927549173-v1e01t9u0t2ft7bqc4aq1ttmil90rbg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUI8jHuOI5Y-EhEdM8shlwFRy_QGsYOaY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806927549173-v1e01t9u0t2ft7bqc4aq1ttmil90rbg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

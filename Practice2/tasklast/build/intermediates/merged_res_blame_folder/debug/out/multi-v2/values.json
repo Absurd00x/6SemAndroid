@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/AndroidStudioProjects/Practice2/tasklast/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/user/Programming/Android/Practice2/tasklast/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/home/user/Programming/Android/Practice2/tasklast/src/main/res/values/themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "100",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "818"
+                    },
+                    "to": {
+                        "startLines": "3783",
+                        "startColumns": "4",
+                        "startOffsets": "251182",
+                        "endLines": "3795",
+                        "endColumns": "12",
+                        "endOffsets": "251898"
+                    }
+                },
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f05760a6ab320001c8b604d10d78ac7b/constraintlayout-2.0.4/res/values/values.xml",
                     "from": {
@@ -76,20 +95,20 @@
                     }
                 },
                 {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/tasklast/src/main/res/values/colors.xml",
+                    "source": "/home/user/Programming/Android/Practice2/tasklast/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "45",
+                        "endOffsets": "57"
                     },
                     "to": {
-                        "startLines": "402,490,491,492,503,504,507",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
+                        "startLines": "1055",
+                        "startColumns": "4",
+                        "startOffsets": "61756",
+                        "endColumns": "45",
+                        "endOffsets": "61797"
                     }
                 },
                 {
@@ -131,20 +150,20 @@
                     }
                 },
                 {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/tasklast/src/main/res/values/strings.xml",
+                    "source": "/home/user/Programming/Android/Practice2/tasklast/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "45",
-                        "endOffsets": "57"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
                     },
                     "to": {
-                        "startLines": "1055",
-                        "startColumns": "4",
-                        "startOffsets": "61756",
-                        "endColumns": "45",
-                        "endOffsets": "61797"
+                        "startLines": "402,490,491,492,503,504,507",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19482,25475,25522,25569,26313,26358,26524",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19519,25517,25564,25611,26353,26398,26561"
                     }
                 },
                 {
@@ -181,25 +200,6 @@
                         "endLines": "5034,5041,5052,7452,7457",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "331890,332275,332872,480193,480463"
-                    }
-                },
-                {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/tasklast/src/main/res/values/themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "100",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "818"
-                    },
-                    "to": {
-                        "startLines": "3783",
-                        "startColumns": "4",
-                        "startOffsets": "251182",
-                        "endLines": "3795",
-                        "endColumns": "12",
-                        "endOffsets": "251898"
                     }
                 },
                 {

@@ -1,4 +1,4 @@
-com/example/practice1/MainActivity.java
- com.example.practice1.MainActivity
-com/example/practice1/BuildConfig.java
- com.example.practice1.BuildConfig
+ru/mirea/petrov/practice1/BuildConfig.java
+ ru.mirea.petrov.practice1.BuildConfig
+ru/mirea/petrov/practice1/MainActivity.java
+ ru.mirea.petrov.practice1.MainActivity

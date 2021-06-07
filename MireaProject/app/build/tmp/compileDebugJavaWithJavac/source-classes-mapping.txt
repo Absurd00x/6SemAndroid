@@ -1,106 +1,120 @@
-com/example/mireaproject/databinding/FragmentCameraBinding.java
- com.example.mireaproject.databinding.FragmentCameraBinding
-com/example/mireaproject/databinding/ActivityMainBinding.java
- com.example.mireaproject.databinding.ActivityMainBinding
-com/example/mireaproject/RoomFragment.java
- com.example.mireaproject.RoomFragment
- com.example.mireaproject.RoomFragment$1
-com/example/mireaproject/ui/home/HomeFragment.java
- com.example.mireaproject.ui.home.HomeFragment
-com/example/mireaproject/Database.java
- com.example.mireaproject.Database
-com/example/mireaproject/databinding/FragmentMapsBinding.java
- com.example.mireaproject.databinding.FragmentMapsBinding
-com/example/mireaproject/databinding/FragmentSensorsBinding.java
- com.example.mireaproject.databinding.FragmentSensorsBinding
-com/example/mireaproject/DateTypeConverter.java
- com.example.mireaproject.DateTypeConverter
-com/example/mireaproject/StoryRecyclerAdapter.java
- com.example.mireaproject.StoryRecyclerAdapter
- com.example.mireaproject.StoryRecyclerAdapter$ActionCallback
- com.example.mireaproject.StoryRecyclerAdapter$ViewHolder
-com/example/mireaproject/CalculatorFragment.java
- com.example.mireaproject.CalculatorFragment
-com/example/mireaproject/MapsFragment.java
- com.example.mireaproject.MapsFragment
-com/example/mireaproject/ui/home/HomeViewModel.java
- com.example.mireaproject.ui.home.HomeViewModel
-com/example/mireaproject/RecordingFragment.java
- com.example.mireaproject.RecordingFragment
-com/example/mireaproject/LoginFragment.java
- com.example.mireaproject.LoginFragment
- com.example.mireaproject.LoginFragment$1
- com.example.mireaproject.LoginFragment$2
-com/example/mireaproject/databinding/FragmentPreferencesBinding.java
- com.example.mireaproject.databinding.FragmentPreferencesBinding
-com/example/mireaproject/databinding/FragmentBrowserBinding.java
- com.example.mireaproject.databinding.FragmentBrowserBinding
-com/example/mireaproject/StoriesFragment.java
- com.example.mireaproject.StoriesFragment
- com.example.mireaproject.StoriesFragment$1
- com.example.mireaproject.StoriesFragment$2
-com/example/mireaproject/databinding/NavHeaderMainBinding.java
- com.example.mireaproject.databinding.NavHeaderMainBinding
-com/example/mireaproject/databinding/FragmentHomeBinding.java
- com.example.mireaproject.databinding.FragmentHomeBinding
-com/example/mireaproject/databinding/ContentMainBinding.java
- com.example.mireaproject.databinding.ContentMainBinding
-com/example/mireaproject/databinding/ItemRecyclerStoryBinding.java
- com.example.mireaproject.databinding.ItemRecyclerStoryBinding
-com/example/mireaproject/databinding/FragmentStoriesBinding.java
- com.example.mireaproject.databinding.FragmentStoriesBinding
-com/example/mireaproject/BuildConfig.java
- com.example.mireaproject.BuildConfig
-com/example/mireaproject/databinding/FragmentMusicPlayerBinding.java
- com.example.mireaproject.databinding.FragmentMusicPlayerBinding
-com/example/mireaproject/ContactRecyclerAdapter.java
- com.example.mireaproject.ContactRecyclerAdapter
- com.example.mireaproject.ContactRecyclerAdapter$ActionCallback
- com.example.mireaproject.ContactRecyclerAdapter$ViewHolder
-com/example/mireaproject/SensorsFragment.java
- com.example.mireaproject.SensorsFragment
-com/example/mireaproject/MainActivity.java
- com.example.mireaproject.MainActivity
-com/example/mireaproject/databinding/FragmentLoginBinding.java
- com.example.mireaproject.databinding.FragmentLoginBinding
-com/example/mireaproject/MyService.java
- com.example.mireaproject.MyService
-com/example/mireaproject/databinding/FragmentRoomBinding.java
- com.example.mireaproject.databinding.FragmentRoomBinding
-com/example/mireaproject/ContactDAO.java
- com.example.mireaproject.ContactDAO
-com/example/mireaproject/PreferencesFragment.java
- com.example.mireaproject.PreferencesFragment
- com.example.mireaproject.PreferencesFragment$1
- com.example.mireaproject.PreferencesFragment$2
- com.example.mireaproject.PreferencesFragment$3
- com.example.mireaproject.PreferencesFragment$4
-com/example/mireaproject/Contact.java
- com.example.mireaproject.Contact
-com/example/mireaproject/BrowserFragment.java
- com.example.mireaproject.BrowserFragment
-com/example/mireaproject/MusicPlayerFragment.java
- com.example.mireaproject.MusicPlayerFragment
-com/example/mireaproject/databinding/FragmentCalculatorBinding.java
- com.example.mireaproject.databinding.FragmentCalculatorBinding
-com/example/mireaproject/databinding/FragmentRecordingBinding.java
- com.example.mireaproject.databinding.FragmentRecordingBinding
-com/example/mireaproject/StoryDAO.java
- com.example.mireaproject.StoryDAO
-com/example/mireaproject/Story.java
- com.example.mireaproject.Story
-com/example/mireaproject/databinding/AppBarMainBinding.java
- com.example.mireaproject.databinding.AppBarMainBinding
-com/example/mireaproject/CameraFragment.java
- com.example.mireaproject.CameraFragment
- com.example.mireaproject.CameraFragment$FileProvider
-com/example/mireaproject/databinding/ItemRecyclerContactBinding.java
- com.example.mireaproject.databinding.ItemRecyclerContactBinding
-com/example/mireaproject/databinding/FragmentInternetBinding.java
- com.example.mireaproject.databinding.FragmentInternetBinding
-com/example/mireaproject/InternetFragment.java
- com.example.mireaproject.InternetFragment
- com.example.mireaproject.InternetFragment$1
- com.example.mireaproject.InternetFragment$2
- com.example.mireaproject.InternetFragment$3
- com.example.mireaproject.InternetFragment$DownloadPageTask
+ru/mirea/petrov/mireaproject/ContactDAO.java
+ ru.mirea.petrov.mireaproject.ContactDAO
+ru/mirea/petrov/mireaproject/ContactRecyclerAdapter.java
+ ru.mirea.petrov.mireaproject.ContactRecyclerAdapter
+ ru.mirea.petrov.mireaproject.ContactRecyclerAdapter$ActionCallback
+ ru.mirea.petrov.mireaproject.ContactRecyclerAdapter$ViewHolder
+ru/mirea/petrov/mireaproject/Database.java
+ ru.mirea.petrov.mireaproject.Database
+ru/mirea/petrov/mireaproject/databinding/FragmentMapsBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentMapsBinding
+ru/mirea/petrov/mireaproject/BuildConfig.java
+ ru.mirea.petrov.mireaproject.BuildConfig
+ru/mirea/petrov/mireaproject/PreferencesFragment.java
+ ru.mirea.petrov.mireaproject.PreferencesFragment
+ ru.mirea.petrov.mireaproject.PreferencesFragment$1
+ ru.mirea.petrov.mireaproject.PreferencesFragment$2
+ ru.mirea.petrov.mireaproject.PreferencesFragment$3
+ ru.mirea.petrov.mireaproject.PreferencesFragment$4
+ru/mirea/petrov/mireaproject/StoryDAO.java
+ ru.mirea.petrov.mireaproject.StoryDAO
+ru/mirea/petrov/mireaproject/MusicPlayerFragment.java
+ ru.mirea.petrov.mireaproject.MusicPlayerFragment
+ru/mirea/petrov/mireaproject/ui/home/HomeViewModel.java
+ ru.mirea.petrov.mireaproject.ui.home.HomeViewModel
+ru/mirea/petrov/mireaproject/ui/home/HomeFragment.java
+ ru.mirea.petrov.mireaproject.ui.home.HomeFragment
+ru/mirea/petrov/mireaproject/StoriesFragment.java
+ ru.mirea.petrov.mireaproject.StoriesFragment
+ ru.mirea.petrov.mireaproject.StoriesFragment$1
+ ru.mirea.petrov.mireaproject.StoriesFragment$2
+ru/mirea/petrov/mireaproject/databinding/NavHeaderMainBinding.java
+ ru.mirea.petrov.mireaproject.databinding.NavHeaderMainBinding
+ru/mirea/petrov/mireaproject/SensorsFragment.java
+ ru.mirea.petrov.mireaproject.SensorsFragment
+ru/mirea/petrov/mireaproject/databinding/ItemRecyclerContactBinding.java
+ ru.mirea.petrov.mireaproject.databinding.ItemRecyclerContactBinding
+ru/mirea/petrov/mireaproject/MyService.java
+ ru.mirea.petrov.mireaproject.MyService
+ru/mirea/petrov/mireaproject/databinding/AppBarMainBinding.java
+ ru.mirea.petrov.mireaproject.databinding.AppBarMainBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentCameraBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentCameraBinding
+ru/mirea/petrov/mireaproject/CameraFragment.java
+ ru.mirea.petrov.mireaproject.CameraFragment
+ ru.mirea.petrov.mireaproject.CameraFragment$FileProvider
+ru/mirea/petrov/mireaproject/ui/gallery/GalleryViewModel.java
+ ru.mirea.petrov.mireaproject.ui.gallery.GalleryViewModel
+ru/mirea/petrov/mireaproject/LoginFragment.java
+ ru.mirea.petrov.mireaproject.LoginFragment
+ ru.mirea.petrov.mireaproject.LoginFragment$1
+ ru.mirea.petrov.mireaproject.LoginFragment$2
+ru/mirea/petrov/mireaproject/ui/slideshow/SlideshowFragment.java
+ ru.mirea.petrov.mireaproject.ui.slideshow.SlideshowFragment
+ ru.mirea.petrov.mireaproject.ui.slideshow.SlideshowFragment$1
+ru/mirea/petrov/mireaproject/Story.java
+ ru.mirea.petrov.mireaproject.Story
+ru/mirea/petrov/mireaproject/databinding/ItemRecyclerStoryBinding.java
+ ru.mirea.petrov.mireaproject.databinding.ItemRecyclerStoryBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentCalculatorBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentCalculatorBinding
+ru/mirea/petrov/mireaproject/CalculatorFragment.java
+ ru.mirea.petrov.mireaproject.CalculatorFragment
+ru/mirea/petrov/mireaproject/StoryRecyclerAdapter.java
+ ru.mirea.petrov.mireaproject.StoryRecyclerAdapter
+ ru.mirea.petrov.mireaproject.StoryRecyclerAdapter$ActionCallback
+ ru.mirea.petrov.mireaproject.StoryRecyclerAdapter$ViewHolder
+ru/mirea/petrov/mireaproject/databinding/ContentMainBinding.java
+ ru.mirea.petrov.mireaproject.databinding.ContentMainBinding
+ru/mirea/petrov/mireaproject/MainActivity.java
+ ru.mirea.petrov.mireaproject.MainActivity
+ru/mirea/petrov/mireaproject/databinding/FragmentBrowserBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentBrowserBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentSensorsBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentSensorsBinding
+ru/mirea/petrov/mireaproject/databinding/ActivityMainBinding.java
+ ru.mirea.petrov.mireaproject.databinding.ActivityMainBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentSlideshowBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentSlideshowBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentStoriesBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentStoriesBinding
+ru/mirea/petrov/mireaproject/MapsFragment.java
+ ru.mirea.petrov.mireaproject.MapsFragment
+ru/mirea/petrov/mireaproject/RoomFragment.java
+ ru.mirea.petrov.mireaproject.RoomFragment
+ ru.mirea.petrov.mireaproject.RoomFragment$1
+ru/mirea/petrov/mireaproject/ui/slideshow/SlideshowViewModel.java
+ ru.mirea.petrov.mireaproject.ui.slideshow.SlideshowViewModel
+ru/mirea/petrov/mireaproject/databinding/FragmentMusicPlayerBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentMusicPlayerBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentInternetBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentInternetBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentHomeBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentHomeBinding
+ru/mirea/petrov/mireaproject/Contact.java
+ ru.mirea.petrov.mireaproject.Contact
+ru/mirea/petrov/mireaproject/databinding/FragmentGalleryBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentGalleryBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentLoginBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentLoginBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentRoomBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentRoomBinding
+ru/mirea/petrov/mireaproject/databinding/FragmentRecordingBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentRecordingBinding
+ru/mirea/petrov/mireaproject/ui/gallery/GalleryFragment.java
+ ru.mirea.petrov.mireaproject.ui.gallery.GalleryFragment
+ ru.mirea.petrov.mireaproject.ui.gallery.GalleryFragment$1
+ru/mirea/petrov/mireaproject/BrowserFragment.java
+ ru.mirea.petrov.mireaproject.BrowserFragment
+ru/mirea/petrov/mireaproject/databinding/FragmentPreferencesBinding.java
+ ru.mirea.petrov.mireaproject.databinding.FragmentPreferencesBinding
+ru/mirea/petrov/mireaproject/RecordingFragment.java
+ ru.mirea.petrov.mireaproject.RecordingFragment
+ru/mirea/petrov/mireaproject/DateTypeConverter.java
+ ru.mirea.petrov.mireaproject.DateTypeConverter
+ru/mirea/petrov/mireaproject/InternetFragment.java
+ ru.mirea.petrov.mireaproject.InternetFragment
+ ru.mirea.petrov.mireaproject.InternetFragment$1
+ ru.mirea.petrov.mireaproject.InternetFragment$2
+ ru.mirea.petrov.mireaproject.InternetFragment$3
+ ru.mirea.petrov.mireaproject.InternetFragment$DownloadPageTask

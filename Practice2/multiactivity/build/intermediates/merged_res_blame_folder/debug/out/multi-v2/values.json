@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/user/AndroidStudioProjects/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/home/user/Programming/Android/Practice2/multiactivity/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
+                {
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/71eb613c05fcf05ede273d8bd1cdf445/drawerlayout-1.1.1/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,111,159,211",
+                        "endLines": "2,3,4,8",
+                        "endColumns": "55,47,51,24",
+                        "endOffsets": "106,154,206,426"
+                    },
+                    "to": {
+                        "startLines": "75,77,604,6413",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3521,3622,32944,418614",
+                        "endLines": "75,77,604,6416",
+                        "endColumns": "55,47,51,24",
+                        "endOffsets": "3572,3665,32991,418829"
+                    }
+                },
                 {
                     "source": "/home/user/.gradle/caches/transforms-2/files-2.1/f05760a6ab320001c8b604d10d78ac7b/constraintlayout-2.0.4/res/values/values.xml",
                     "from": {
@@ -59,41 +78,7 @@
                     }
                 },
                 {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1,4,9,10,6,7,5,2",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "16,187,402,472,317,355,251,67",
-                        "endColumns": "50,63,69,82,37,45,65,64",
-                        "endOffsets": "62,246,467,550,350,396,312,127"
-                    },
-                    "to": {
-                        "startLines": "1062,1075,1076,1077,1133,1139,1141,1143",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "62117,63580,63644,63714,72988,73828,73927,74064",
-                        "endColumns": "50,63,69,82,37,45,65,64",
-                        "endOffsets": "62163,63639,63709,63792,73021,73869,73988,74124"
-                    }
-                },
-                {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/42230dc68b9ed0b4cb908b91489c9d01/transition-1.3.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,95,142,185,240,287,341,393,442,503",
-                        "endColumns": "39,46,42,54,46,53,51,48,60,49",
-                        "endOffsets": "90,137,180,235,282,336,388,437,498,548"
-                    },
-                    "to": {
-                        "startLines": "947,948,964,968,969,998,999,1000,1001,1002",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55431,55471,56275,56457,56512,58008,58062,58114,58163,58224",
-                        "endColumns": "39,46,42,54,46,53,51,48,60,49",
-                        "endOffsets": "55466,55513,56313,56507,56554,58057,58109,58158,58219,58269"
-                    }
-                },
-                {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/ed6665001ef2e0f4d029635013b33962/navigation-fragment-2.3.0/res/values/values.xml",
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/23afb4882a0aa2885b76d387b23f3bae/navigation-fragment-2.3.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,6,9",
                         "startColumns": "4,4,4,4",
@@ -112,22 +97,37 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/04d2f50633684ac69dea1a648d32a41f/drawerlayout-1.1.0/res/values/values.xml",
+                    "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,111,159,211",
-                        "endLines": "2,3,4,8",
-                        "endColumns": "55,47,51,24",
-                        "endOffsets": "106,154,206,426"
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "286,55,102,149,196,241,328",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "323,97,144,191,236,281,365"
                     },
                     "to": {
-                        "startLines": "75,77,604,6413",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "3521,3622,32944,418614",
-                        "endLines": "75,77,604,6416",
-                        "endColumns": "55,47,51,24",
-                        "endOffsets": "3572,3665,32991,418829"
+                        "startLines": "404,492,493,494,505,506,509",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19586,25579,25626,25673,26417,26462,26628",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19623,25621,25668,25715,26457,26502,26665"
+                    }
+                },
+                {
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/42230dc68b9ed0b4cb908b91489c9d01/transition-1.3.0/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,95,142,185,240,287,341,393,442,503",
+                        "endColumns": "39,46,42,54,46,53,51,48,60,49",
+                        "endOffsets": "90,137,180,235,282,336,388,437,498,548"
+                    },
+                    "to": {
+                        "startLines": "947,948,964,968,969,998,999,1000,1001,1002",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55431,55471,56275,56457,56512,58008,58062,58114,58163,58224",
+                        "endColumns": "39,46,42,54,46,53,51,48,60,49",
+                        "endOffsets": "55466,55513,56313,56507,56554,58057,58109,58158,58219,58269"
                     }
                 },
                 {
@@ -169,22 +169,20 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/a1cc0c6a6d976c04ea606222f1dd49e3/navigation-common-2.3.0/res/values/values.xml",
+                    "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/values/dimens.xml",
                     "from": {
-                        "startLines": "2,13,19,25,28",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "55,584,828,1075,1208",
-                        "endLines": "12,18,24,27,31",
-                        "endColumns": "24,24,24,24,24",
-                        "endOffsets": "579,823,1070,1203,1340"
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "41",
+                        "endOffsets": "53"
                     },
                     "to": {
-                        "startLines": "7132,7143,7149,7155,7222",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "462187,462716,462960,463207,467317",
-                        "endLines": "7142,7148,7154,7157,7225",
-                        "endColumns": "24,24,24,24,24",
-                        "endOffsets": "462711,462955,463202,463335,467449"
+                        "startLines": "655",
+                        "startColumns": "4",
+                        "startOffsets": "36249",
+                        "endColumns": "41",
+                        "endOffsets": "36286"
                     }
                 },
                 {
@@ -202,6 +200,23 @@
                         "startOffsets": "58354",
                         "endColumns": "42",
                         "endOffsets": "58392"
+                    }
+                },
+                {
+                    "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1,4,9,10,6,7,5,2",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "16,187,402,472,317,355,251,67",
+                        "endColumns": "50,63,69,82,37,45,65,64",
+                        "endOffsets": "62,246,467,550,350,396,312,127"
+                    },
+                    "to": {
+                        "startLines": "1062,1075,1076,1077,1133,1139,1141,1143",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "62117,63580,63644,63714,72988,73828,73927,74064",
+                        "endColumns": "50,63,69,82,37,45,65,64",
+                        "endOffsets": "62163,63639,63709,63792,73021,73869,73988,74124"
                     }
                 },
                 {
@@ -281,60 +296,26 @@
                     }
                 },
                 {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/values/dimens.xml",
+                    "source": "/home/user/Programming/Android/Practice2/multiactivity/src/main/res/values/themes.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "41",
-                        "endOffsets": "53"
-                    },
-                    "to": {
-                        "startLines": "655",
-                        "startColumns": "4",
-                        "startOffsets": "36249",
-                        "endColumns": "41",
-                        "endOffsets": "36286"
-                    }
-                },
-                {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "286,55,102,149,196,241,328",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "323,97,144,191,236,281,365"
-                    },
-                    "to": {
-                        "startLines": "404,492,493,494,505,506,509",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19586,25579,25626,25673,26417,26462,26628",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19623,25621,25668,25715,26457,26502,26665"
-                    }
-                },
-                {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/3c92cd5f361e1f4ca00f8b14085a8a26/navigation-runtime-2.3.0/res/values/values.xml",
-                    "from": {
-                        "startLines": "2,3,10,13",
+                        "startLines": "2,21,16,23",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,108,412,527",
-                        "endLines": "2,9,12,15",
-                        "endColumns": "52,24,24,24",
-                        "endOffsets": "103,407,522,637"
+                        "startOffsets": "100,982,824,1081",
+                        "endLines": "14,21,19,23",
+                        "endColumns": "12,97,12,87",
+                        "endOffsets": "818,1075,976,1164"
                     },
                     "to": {
-                        "startLines": "962,5020,7158,7164",
+                        "startLines": "3799,3812,3813,3817",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "56165,331033,463340,463582",
-                        "endLines": "962,5026,7160,7166",
-                        "endColumns": "52,24,24,24",
-                        "endOffsets": "56213,331332,463450,463692"
+                        "startOffsets": "252143,252864,252961,253118",
+                        "endLines": "3811,3812,3816,3817",
+                        "endColumns": "12,96,12,86",
+                        "endOffsets": "252859,252956,253113,253200"
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/65e0bfe048ce53689d09cc3413054d80/navigation-ui-2.3.0/res/values/values.xml",
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/68198ebcb2b6bd749eec9f9577ee98d7/navigation-ui-2.3.5/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -387,22 +368,22 @@
                     }
                 },
                 {
-                    "source": "/home/user/AndroidStudioProjects/Practice2/multiactivity/src/main/res/values/themes.xml",
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/56e8a3d9336f550f805aad4f4f3f8a8c/navigation-common-2.3.5/res/values/values.xml",
                     "from": {
-                        "startLines": "2,21,16,23",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "100,982,824,1081",
-                        "endLines": "14,21,19,23",
-                        "endColumns": "12,97,12,87",
-                        "endOffsets": "818,1075,976,1164"
+                        "startLines": "2,13,19,25,28",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,584,828,1075,1208",
+                        "endLines": "12,18,24,27,31",
+                        "endColumns": "24,24,24,24,24",
+                        "endOffsets": "579,823,1070,1203,1340"
                     },
                     "to": {
-                        "startLines": "3799,3812,3813,3817",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "252143,252864,252961,253118",
-                        "endLines": "3811,3812,3816,3817",
-                        "endColumns": "12,96,12,86",
-                        "endOffsets": "252859,252956,253113,253200"
+                        "startLines": "7132,7143,7149,7155,7222",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "462187,462716,462960,463207,467317",
+                        "endLines": "7142,7148,7154,7157,7225",
+                        "endColumns": "24,24,24,24,24",
+                        "endOffsets": "462711,462955,463202,463335,467449"
                     }
                 },
                 {
@@ -422,6 +403,25 @@
                         "endLines": "24,413,414,415,416,593,594,595,1187,3066,3069,3072,5959",
                         "endColumns": "51,60,61,61,63,58,56,53,12,12,12,12,24",
                         "endOffsets": "1181,20325,20387,20449,20513,32285,32342,32396,77127,200502,200628,200756,382149"
+                    }
+                },
+                {
+                    "source": "/home/user/.gradle/caches/transforms-2/files-2.1/d1bbda2df630ea3a4032029f82b45832/navigation-runtime-2.3.5/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,10,13",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,108,412,527",
+                        "endLines": "2,9,12,15",
+                        "endColumns": "52,24,24,24",
+                        "endOffsets": "103,407,522,637"
+                    },
+                    "to": {
+                        "startLines": "962,5020,7158,7164",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "56165,331033,463340,463582",
+                        "endLines": "962,5026,7160,7166",
+                        "endColumns": "52,24,24,24",
+                        "endOffsets": "56213,331332,463450,463692"
                     }
                 }
             ]

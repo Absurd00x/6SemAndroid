@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.notificationapp",
+  "applicationId": "ru.mirea.petrov.notificationapp",
   "variantName": "debug",
   "elements": [
     {

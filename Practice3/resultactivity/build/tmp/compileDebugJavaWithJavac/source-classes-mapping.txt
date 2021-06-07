@@ -1,6 +1,6 @@
-com/example/resultactivity/MainActivity.java
- com.example.resultactivity.MainActivity
-com/example/resultactivity/BuildConfig.java
- com.example.resultactivity.BuildConfig
-com/example/resultactivity/DataActivity.java
- com.example.resultactivity.DataActivity
+ru/mirea/petrov/resultactivity/BuildConfig.java
+ ru.mirea.petrov.resultactivity.BuildConfig
+ru/mirea/petrov/resultactivity/MainActivity.java
+ ru.mirea.petrov.resultactivity.MainActivity
+ru/mirea/petrov/resultactivity/DataActivity.java
+ ru.mirea.petrov.resultactivity.DataActivity

@@ -1,6 +1,6 @@
-com/example/internalfilestorage/BuildConfig.java
- com.example.internalfilestorage.BuildConfig
-com/example/internalfilestorage/MainActivity.java
- com.example.internalfilestorage.MainActivity
- com.example.internalfilestorage.MainActivity$1
- com.example.internalfilestorage.MainActivity$1$1
+ru/mirea/petrov/internalfilestorage/BuildConfig.java
+ ru.mirea.petrov.internalfilestorage.BuildConfig
+ru/mirea/petrov/internalfilestorage/MainActivity.java
+ ru.mirea.petrov.internalfilestorage.MainActivity
+ ru.mirea.petrov.internalfilestorage.MainActivity$1
+ ru.mirea.petrov.internalfilestorage.MainActivity$1$1
