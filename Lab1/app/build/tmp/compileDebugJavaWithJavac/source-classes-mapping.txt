@@ -1,6 +1,0 @@
-com/example/lab1/databinding/ActivityMapsBinding.java
- com.example.lab1.databinding.ActivityMapsBinding
-com/example/lab1/BuildConfig.java
- com.example.lab1.BuildConfig
-com/example/lab1/MapsActivity.java
- com.example.lab1.MapsActivity
