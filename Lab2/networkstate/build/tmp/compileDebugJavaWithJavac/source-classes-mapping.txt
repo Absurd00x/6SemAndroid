@@ -1,8 +1,0 @@
-com/example/networkstate/MainActivity.java
- com.example.networkstate.MainActivity
- com.example.networkstate.MainActivity$1
-com/example/networkstate/BuildConfig.java
- com.example.networkstate.BuildConfig
-com/example/networkstate/NetworkLiveData.java
- com.example.networkstate.NetworkLiveData
- com.example.networkstate.NetworkLiveData$1
